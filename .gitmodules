@@ -1,0 +1,6 @@
+[submodule "rss-display"]
+	path = rss-display
+	url = https://github.com/StudentLifeMarketingAndDesign/rss-display
+[submodule "division-bar"]
+	path = division-bar
+	url = https://github.com/StudentLifeMarketingAndDesign/division-bar
