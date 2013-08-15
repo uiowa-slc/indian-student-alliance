@@ -25,7 +25,7 @@
 	<!-- hiding division bar until deprecation stuff sorted out -->
     <% include DivisionBar %>
 
-    <% include Header %>
+    
     $Layout
 
     <% include Footer %>

@@ -149,6 +149,25 @@ body {
 	}
 }
 
+/* homepage specific nav colors */
+
+.HomePage.header {
+	background: rgba(22, 22, 22, 0.64) url(../images/nav_green.png) repeat-x left bottom;
+}
+.HomePage .logo {
+	color: white;
+	text-shadow: none;
+}
+
+.HomePage .nav-main a {
+	@media screen and (min-width: $break-medium) {
+		color: white;
+		text-shadow: none;
+	}
+
+}
+
+
 
 /* Breadcrumbs
 ========================================================================== */

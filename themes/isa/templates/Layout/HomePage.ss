@@ -1,4 +1,5 @@
 <div class="hero">
+  <% include Header %>
         <div class="container clearfix">
 
         <% if HomePageHeroFeatures.limit(2) %>
@@ -37,7 +38,7 @@
                 <ul>
                     <li><a href="/vp-for-student-life/about/">Our Events</a></li>
                     <li><a href="/vp-for-student-life/staff/">Meet Us</a></li>
-                    <li><a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife">Learn about the Community/a></li>
+                    <li><a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife">Learn about the Community</a></li>
                 </ul>
             </div>
         </div>

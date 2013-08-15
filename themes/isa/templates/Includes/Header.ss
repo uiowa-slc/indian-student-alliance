@@ -1,4 +1,4 @@
-<header class="header clearfix" role="banner">
+<header class="header $ClassName clearfix" role="banner">
 	<div class="container">
 		
 		<a href="{$BaseHref}" class="logo">Indian Student Alliance</a>
