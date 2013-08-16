@@ -65,7 +65,7 @@ body {
 .main-content {
 	padding: 0 1em;
 	@media screen and (min-width: $break-medium) {
-		background: #fff repeat-y left top;
+		background: #fafafa repeat-y left top;
 		background-size: 100%; 
 		border-right: 1px solid #ddd;
 		min-height: 530px;
@@ -102,8 +102,9 @@ body {
   -moz-box-shadow: inset 0 5px 20px -6px rgba(10, 10, 10, 0.6);
   -webkit-box-shadow: inset 0 5px 20px -6px rgba(10, 10, 10, 0.6);
   box-shadow: inset 0 5px 20px -6px rgba(10, 10, 10, 0.6);
+  color: white;
   @media screen and (min-width: $break-medium) {
-    min-height: 500px;
+    min-height: 300px;
     /*border-top: 3px solid $gray; */
   }
   h1, h2, h3, h4 {

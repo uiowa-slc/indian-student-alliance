@@ -24,5 +24,5 @@
 		   
 		</section>
 	</div>
-<%-- <% include TopicsAndNews %> --%>
+<% include TopicsAndNews %>
 

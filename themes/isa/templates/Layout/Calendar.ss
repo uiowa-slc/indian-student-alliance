@@ -1,4 +1,5 @@
-<div class="container clearfix">
+<section class="container content-wrapper clearfix">
+<section class="main-content">
 <h2>$Title</h2>
 <p class="feed"><a href="$Link(rss)"><% _t('SUBSCRIBE','Calendar RSS Feed') %></a></p>
 
@@ -17,3 +18,6 @@ $Content
   $MonthJumper
   <% include QuickNav %>
 </div>
+
+</section>
+</section>

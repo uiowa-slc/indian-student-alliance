@@ -1,29 +1,45 @@
-<section class="topics-news">
-            <div class="container">
-                <div class="row-fluid">
-                    <div class="span6 mod mod-news">
-
-                          <h2 class="mod-title">Everyone talkin' CAB</h2>
-						 <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/UIstdntInvolve" data-widget-id="337209860296957952">Tweets by @UIstdntInvolve</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                   <!-- <div class="fb-like-box" data-href="https://www.facebook.com/UIstudentinvolvement" data-width="400" data-show-faces="false" data-colorscheme="dark" data-stream="false" data-show-border="false" data-header="false"></div>-->
+      <section class="topics-news" padding hide-print">
+            <div class="container ">
+                <div class="colgroup">
+                    <div class="col-1-2 mod">
+                        <h3 class="mod-title">Community Topics</h3>
+                        <ul class="grid-justify">
+                          <% with Page("community") %>
+                            <% loop $Entries('8') %>
+                              <li><a href="$Link">$MenuTitle</a></li>
+                              <% end_loop %>
+                            <% end_with %>
+                        </ul>
                     </div>
-                    <div class="span6 mod mod-events">
-                    
-			<h2 class="mod-title">red light raffle</h2>
-			<div id = "involve">
-			<img id="redlight" src="$ThemeDir/images/key.png" />
-			 <h5>Win <span class="uppercase">big</span> prizes from Apple by earning <strong>10 punches</strong> at <strong>10 CAB events</strong>! Each completed card gives you the chance to win in every <strong> Red Light Raffle </strong>until you graduate! </h5>                  
-                      <div class="clear"></div>
+                    <div class="col-1-4 mod mod-news">
+                      <% with Page(news) %>
+              <% if $Entries %>
+                    <h3 class="mod-title">Latest News</h3>
+                    <ul class="unstyled">
+                      <% loop $Entries('3','news') %>
+                      <li><a href="$Link">$MenuTitle</a>
+                        <% if $Date %><small>$Date.Format('M. j')</small><% end_if %>
+                      </li>
+                      <% end_loop %>
+                      <li><a href="$Link">View all News</a></li>
 
-                    <ol>
-                        <li>Enjoy yourself at 10 CAB events</li>
-                        <li>Show your completed punchcard to a CAB member working your 10th event</li>
-                        <li>Fill out the information sticker on your punchcard</li>
-                        <li>Get to work on your new punchcard and wait for a call/email from CAB telling you what you've won!</li>
-                    </ol>
+                    </ul>
+              <% end_if %>
+            <% end_with %>
                     </div>
-                   </div>
+                    <div class="col-1-4 mod">
+                      <% with Page(news) %>
+              <% if $Entries('','event') %>
+                    <h3 class="mod-title">Upcoming Events</h3>
+                    <ul class="unstyled">
+                      <% loop $Entries('3','event') %>
+                      <li><a href="$Link">$MenuTitle</a></li>
+                      <% end_loop %>
+                      <li><a href="{$Link}tag/event">View all Events</a></li>
+                    </ul>
+              <% end_if %>
+            <% end_with %>
+                    </div>
                 </div>
             </div>
         </section>
