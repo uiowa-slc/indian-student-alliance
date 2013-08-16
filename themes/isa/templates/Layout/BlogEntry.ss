@@ -1,8 +1,8 @@
 <div style="position: relative;" class="news">
     <div class="img-fifty"></div>
-    <section class="vevent container content-wrapper clearfix">
+    <section class="container content-wrapper clearfix">
         <!-- $Breadcrumbs -->
-        <section class="sInnerBground main-content">
+        <section class="main-content">
             <article>
                 <h1 class="postTitle">$Title</h1>
                 <!-- <p class="authorDate"><% _t('POSTEDBY', 'Posted by') %> $Author.XML <% _t('POSTEDON', 'on') %> $Date.Long</p> -->

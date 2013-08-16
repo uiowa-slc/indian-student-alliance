@@ -267,7 +267,6 @@ aside .mod {
 
 .mod {
 	line-height: 1.4;
-	color: white; 
 }
 
 .mod-events h3{
@@ -477,7 +476,7 @@ aside .mod {
 	visibility: hidden;
 	@media screen and (min-width: $break-medium) {
 		//background: #ffffff;
-		background: white repeat-y left top;
+		background: #FAFAFA repeat-y left top;
 		background-size: 100%;
 		position: absolute;
 		left: 0;

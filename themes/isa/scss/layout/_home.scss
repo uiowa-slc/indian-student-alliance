@@ -90,13 +90,13 @@
 /* Hero Featured Content
 ========================================================================== */
 .hero-article-wrapper {
-	margin-bottom: 1em;
+	margin-bottom: 0;
 	overflow: hidden;
 	@media screen and (min-width: $break-medium) {
 		width: 278px;
-		margin-bottom: 0;
+		margin-bottom: 5em;
 		display: inline-block;
-		background: #fff;
+		background: rgba(10,10,10, 0.7);
 		padding: 1em;
 		text-align: left;
 		vertical-align: middle;
@@ -106,12 +106,13 @@
 		max-height: 83%;
 		right: 1em;
 		bottom: 5em;
+		color: white;
 		
 		
 	}
 }
 .hero-article {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #313131;
 	margin-top: 1.7em;
 	padding-top: 1em;
 	width: 100%;
@@ -146,7 +147,7 @@
 .hero-title {
 	margin: .2em 0 .2em;
 	& a {
-		color: #333;
+		color: $orange;
 	}
 }
 .hero-content {

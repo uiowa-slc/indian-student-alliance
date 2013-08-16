@@ -1,5 +1,4 @@
 <div class="container clearfix">
-<div class ="eList">
 <h2>$Title</h2>
 <p class="feed"><a href="$Link(rss)"><% _t('SUBSCRIBE','Calendar RSS Feed') %></a></p>
 
@@ -17,7 +16,4 @@ $Content
   $CalendarWidget
   $MonthJumper
   <% include QuickNav %>
-</div>
-
-
 </div>

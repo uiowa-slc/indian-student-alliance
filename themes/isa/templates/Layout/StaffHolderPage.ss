@@ -1,5 +1,5 @@
 <div style="position: relative;">
-      <section class="innerBackground mevent container content-wrapper clearfix staff">
+      <section class="container content-wrapper clearfix staff">
             <!-- $Breadcrumbs -->
             <section class="staff-content">
             	$Form
