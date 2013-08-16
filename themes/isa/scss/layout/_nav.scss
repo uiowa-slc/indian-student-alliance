@@ -156,6 +156,7 @@
 /* Hover State */
 .nav-main a:hover, .nav-main a:focus {
 	background: #eee;
+	color: $orange;
 	@media screen and (min-width: $break-medium) {
 		background: url(../images/nav_hover.png) repeat-x left bottom;
 		text-decoration: none;
@@ -180,6 +181,7 @@
 /* Active State */
 .nav-main .active a {
 	@media screen and (min-width: $break-medium) {
+		color: $orange;
 		background: url(../images/nav_hover.png) repeat-x left bottom;
 		&:after {
 			content: '';

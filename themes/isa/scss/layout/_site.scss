@@ -67,7 +67,7 @@ body {
 	@media screen and (min-width: $break-medium) {
 		background: #fff repeat-y left top;
 		background-size: 100%; 
-		border-right: 1px solid black;
+		border-right: 1px solid #ddd;
 		min-height: 530px;
 		width: 72%;
 		position: relative;
@@ -140,7 +140,7 @@ body {
 	}
 	@media screen and (min-width: $break-xlarge) {
 		@include rem(46);
-		margin: 0.5em 0 .2em 0;
+		
 	}
 }
 .rwd-break {
@@ -157,7 +157,10 @@ body {
 .HomePage .logo {
 	color: white;
 	text-shadow: none;
+	margin: 0;
 }
+
+
 
 .HomePage .nav-main a {
 	@media screen and (min-width: $break-medium) {
@@ -167,6 +170,9 @@ body {
 
 }
 
+.HomePage .nav-main a:hover{
+	color: $orange;
+}
 
 
 /* Breadcrumbs

@@ -173,7 +173,7 @@ div {
 }
 /* line 3, ../scss/imports/_typography.scss */
 .typography a {
-  color: white;
+  color: #fe0002;
   outline: none;
   text-decoration: none;
 }

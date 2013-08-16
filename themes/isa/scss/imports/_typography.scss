@@ -1,6 +1,6 @@
 /* /scss/imports/typography.scss
 ========================================================================== */
-a {color: white; outline:none; text-decoration: none;}
+a {color: $red; outline:none; text-decoration: none;}
 a:hover {text-decoration: underline;}
 a:active {color:#999999;}
 a:focus {outline:thin dotted;}
