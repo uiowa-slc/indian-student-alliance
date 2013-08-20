@@ -6,7 +6,7 @@
 		$Content
 	<% else %> 
 		<% if $Date %><p class="authorDate"><% _t('POSTEDON', 'Posted on') %> $Date.Long</p><% end_if %>
-		<p>$Content.LimitWordCount(30) <a href="$Link">Read Full Post</a></p>
+		<p>$Content.Summary(50) <a href="$Link">Read Full Post</a></p>
 	<% end_if %>
 
 	
