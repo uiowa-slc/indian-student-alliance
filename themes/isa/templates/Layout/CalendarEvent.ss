@@ -1,34 +1,30 @@
+<% if $BackgroundImage %>
+    	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
+    		<div class="img-fifty-top"></div>
+    	</div>
+    <% else %>
+    	<div class="img-container" style="background-image: url(assets/Uploads/rszcabexecphoto.jpg);">
+    		<div class="img-fifty-top"></div>
+    	</div>
+<% end_if %>
+<div style="position: relative;" class="news">
+    <div class="img-fifty"></div>
+    <section class="container content-wrapper clearfix">
+        <!-- $Breadcrumbs -->
+        <section class="main-content">
 
-<div class="container clearfix">
-<div class = "event">
-$CalendarWidget
-<p><a href="$Parent.Link">&laquo; Back to $Parent.Title</a></p>
-<div class="vevent">
-  
-  <h1 class="summary">$Title</h1>
-
-  <% with CurrentDate %>
-  <p class="dates">$DateRange<% if StartTime %> $TimeRange<% end_if %></p>
-  <p><a href="$ICSLink" title="<% _t('CalendarEvent.ADD','Add to Calendar') %>">Add this to Calendar</a></p>
-  <% end_with %>
+       <h2>$Title</h2>
+		<p class="feed"><a href="$Link(rss)"><% _t('SUBSCRIBE','Calendar RSS Feed') %></a></p>
 
 
-  $BackgroundImage
- 
-  $Content
-  asdfasdd
-  <% if OtherDates %>
-  <div class="event-calendar-other-dates">
-    <h4><% _t('CalendarEvent.ADDITIONALDATES','Additional Dates for this Event') %></h4>
-    <ul>
-      <% loop OtherDates %>
-      <li><a href="$Link" title="$Event.Title">$DateRange<% if StartTime %> $TimeRange<% end_if %></a></li>
-      <% end_loop %> 
-    </ul>
-  </div> 
-  <% end_if %>
+		$Content
+        </section>
+        <section class="sec-content hide-print">
+        	$CalendarWidget
+  			$MonthJumper
+  			<% include QuickNav %>
+
+        </section>
+    </section>
 </div>
-</div>
-$Form
-$PageComments
-</div>
+<% include TopicsAndNews %>

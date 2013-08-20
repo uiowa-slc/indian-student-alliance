@@ -51,6 +51,10 @@ h3 + h4,
 h4 + h5,
 h5 + h6 {margin-top:0;}
 
+.authorDate {
+	font-weight: bold; 
+}
+
 .event{ 
 	h1{
 		color: $yellow;
@@ -83,7 +87,7 @@ h5 + h6 {margin-top:0;}
 }
 
 .feed {
-	padding-left: 1.4em; 
+	//padding-left: 1.4em; 
 }
 
 .FBold {
@@ -93,8 +97,7 @@ h5 + h6 {margin-top:0;}
 .eList p{
 	color: white; 	
 }
-#event-calendar-events { 
-	color: $gray;	
+#event-calendar-events { 	
 }
 .lede {
     @include rem($base-font * 1.2);

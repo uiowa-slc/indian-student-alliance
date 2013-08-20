@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "v1.0.5"
+                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/v1.0.5",
-                "reference": "v1.0.5",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
                 "shasum": ""
             },
             "replace": {
@@ -95,6 +95,7 @@
             "description": "A multi-framework Composer library installer",
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
+                "TYPO3 CMS",
                 "TYPO3 Flow",
                 "TYPO3 Neos",
                 "agl",
@@ -117,7 +118,7 @@
                 "wordpress",
                 "zend"
             ],
-            "time": "2013-08-07 17:25:08"
+            "time": "2013-08-20 04:37:09"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -161,12 +162,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "a07694a2b71fbb12ba72689af65887f2cce0a4f0"
+                "reference": "ba89364eb8a9c2766ccf14195f79cd17c87f1795"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/a07694a2b71fbb12ba72689af65887f2cce0a4f0",
-                "reference": "a07694a2b71fbb12ba72689af65887f2cce0a4f0",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/ba89364eb8a9c2766ccf14195f79cd17c87f1795",
+                "reference": "ba89364eb8a9c2766ccf14195f79cd17c87f1795",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +195,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2013-08-13 01:47:17"
+            "time": "2013-08-15 06:33:19"
         },
         {
             "name": "silverstripe/cms",
@@ -202,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "004dfa76b1ce858d67af4eea0d8d505fbe1a1a21"
+                "reference": "c4e54fd7eb55d56f821a77b832e7f44087260810"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/004dfa76b1ce858d67af4eea0d8d505fbe1a1a21",
-                "reference": "004dfa76b1ce858d67af4eea0d8d505fbe1a1a21",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/c4e54fd7eb55d56f821a77b832e7f44087260810",
+                "reference": "c4e54fd7eb55d56f821a77b832e7f44087260810",
                 "shasum": ""
             },
             "require": {
@@ -241,7 +242,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2013-08-09 12:53:17"
+            "time": "2013-08-20 13:37:17"
         },
         {
             "name": "silverstripe/dashboard",
@@ -249,12 +250,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-dashboard.git",
-                "reference": "e36ebc5d63aab33618e9b847ae9c089039aad5ee"
+                "reference": "0c4e5a80eea5db1eeaad0ffa83d471772c247e0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-dashboard/zipball/e36ebc5d63aab33618e9b847ae9c089039aad5ee",
-                "reference": "e36ebc5d63aab33618e9b847ae9c089039aad5ee",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-dashboard/zipball/0c4e5a80eea5db1eeaad0ffa83d471772c247e0b",
+                "reference": "0c4e5a80eea5db1eeaad0ffa83d471772c247e0b",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +275,7 @@
             ],
             "authors": [
                 {
-                    "name": "Uncle Cheese",
+                    "name": "Aaron Carlino",
                     "email": "unclecheese@leftandmain.com",
                     "homepage": "http://leftandmain.com"
                 }
@@ -286,7 +287,7 @@
                 "module",
                 "silverstripe"
             ],
-            "time": "2013-07-24 05:34:01"
+            "time": "2013-08-15 03:21:33"
         },
         {
             "name": "silverstripe/framework",
@@ -294,12 +295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "5032c976726d161514821dc0e49411f288ef2ab0"
+                "reference": "351c1168b6b492cb78c00af89dab1467fa4e4fea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/5032c976726d161514821dc0e49411f288ef2ab0",
-                "reference": "5032c976726d161514821dc0e49411f288ef2ab0",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/351c1168b6b492cb78c00af89dab1467fa4e4fea",
+                "reference": "351c1168b6b492cb78c00af89dab1467fa4e4fea",
                 "shasum": ""
             },
             "require": {
@@ -332,7 +333,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2013-08-14 09:05:40"
+            "time": "2013-08-20 13:40:58"
         },
         {
             "name": "silverstripe/recaptcha",
@@ -484,12 +485,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-widgets.git",
-                "reference": "a596374271a9013cba8f4708410d92b2ed0e7df4"
+                "reference": "fb655f386244b5039e24bd24546176e4b0a0cb35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/a596374271a9013cba8f4708410d92b2ed0e7df4",
-                "reference": "a596374271a9013cba8f4708410d92b2ed0e7df4",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/fb655f386244b5039e24bd24546176e4b0a0cb35",
+                "reference": "fb655f386244b5039e24bd24546176e4b0a0cb35",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +513,7 @@
                 "silverstripe",
                 "widgets"
             ],
-            "time": "2013-08-12 22:10:39"
+            "time": "2013-08-20 03:16:50"
         },
         {
             "name": "simonwelsh/gridfieldrelationhandler",
@@ -557,16 +558,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
-                "reference": "97b19f8d2e105437d4a9e93ca5dfc5b67db02c28"
+                "reference": "4221089280a6dcef353bface206e3488fae332b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/97b19f8d2e105437d4a9e93ca5dfc5b67db02c28",
-                "reference": "97b19f8d2e105437d4a9e93ca5dfc5b67db02c28",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/4221089280a6dcef353bface206e3488fae332b6",
+                "reference": "4221089280a6dcef353bface206e3488fae332b6",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/framework": ">=3.1.x-dev,<4.0"
+                "silverstripe/framework": "~3.1"
             },
             "type": "silverstripe-module",
             "notification-url": "https://packagist.org/downloads/",
@@ -575,7 +576,7 @@
             ],
             "authors": [
                 {
-                    "name": "Uncle Cheese",
+                    "name": "Aaron Carlino",
                     "email": "unclecheese@leftandmain.com",
                     "homepage": "http://leftandmain.com"
                 }
@@ -586,7 +587,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2013-08-13 21:44:16"
+            "time": "2013-08-15 03:20:08"
         },
         {
             "name": "unclecheese/eventcalendar",

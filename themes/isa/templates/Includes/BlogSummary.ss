@@ -1,13 +1,15 @@
+
 <div class="blogSummary">
 	<h3 class="postTitle"><a href="$Link" title="<% _t('VIEWFULL', 'View full post titled -') %> '$Title'">$MenuTitle</a></h3>
 
 	<% if BlogHolder.ShowFullEntry %>
 		$Content
 	<% else %> 
+		<% if $Date %><p class="authorDate"><% _t('POSTEDON', 'Posted on') %> $Date.Long</p><% end_if %>
 		<p>$Content.LimitWordCount(30) <a href="$Link">Read Full Post</a></p>
 	<% end_if %>
 
-	<% if $Date %><p class="authorDate"><% _t('POSTEDON', 'Posted on') %> $Date.Long</p><% end_if %>
+	
 
 	<!-- <% if TagsCollection %>
 		<p class="tags-summary">

@@ -5,7 +5,7 @@
         <div class="colgroup">
 			<div class="col-1-2">
 				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="{$ThemeDir}/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a><br>
-				<p>Campus Activities board fosters student success by creating and promoting inclusive entertainment services and activities beyond the classroom.</p>
+				<p>India Student Alliance hosts a series of cultural, education, social, and charitable events designed to promote communal unity. </p>
 				<p>249 Iowa Memorial Union, Iowa City, IA 52242<br>
 					Phone: 319-335-3557</p>
 			</div>

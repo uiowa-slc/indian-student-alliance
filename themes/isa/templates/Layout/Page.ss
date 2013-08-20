@@ -8,7 +8,7 @@
     		<div class="img-fifty-top"></div>
     	</div>
     <% end_if %>
-    <div style= "position: relative; background: #FAFAFA;">
+    <div style= "position: relative;">
     	<div class="img-fifty"></div>
 		<section class="container content-wrapper clearfix">
 		    
