@@ -23,9 +23,8 @@
 				</div>
 			</div>
 			<div class="col-1-4 hide-print">
-				<h4>Support The Division</h4>
-				<p>Gifts to the Vice President for Student Life Development Fund allow us to continue and enhance our efforts to prepare students for a successful life in school and beyond.</p>
-				<a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife" class="appt-btn">Give Online Now</a>
+				<h4>Fill in the Blank</h4>
+				
 			</div>
         </div>
         <hr>
