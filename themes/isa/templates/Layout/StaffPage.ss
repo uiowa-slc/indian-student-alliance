@@ -2,7 +2,7 @@
     <div class="img-fifty"></div>
       <section class="container content-wrapper clearfix">
             <!-- $Breadcrumbs -->
-            <section class="main-content">
+            <section class="xmain-content">
 
             	<h1>$Title</h1>
 

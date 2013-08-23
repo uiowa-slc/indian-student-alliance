@@ -162,12 +162,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "ba89364eb8a9c2766ccf14195f79cd17c87f1795"
+                "reference": "0599efa46b0c73d425ccaaccea64861de36e2506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/ba89364eb8a9c2766ccf14195f79cd17c87f1795",
-                "reference": "ba89364eb8a9c2766ccf14195f79cd17c87f1795",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/0599efa46b0c73d425ccaaccea64861de36e2506",
+                "reference": "0599efa46b0c73d425ccaaccea64861de36e2506",
                 "shasum": ""
             },
             "require": {
@@ -195,7 +195,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2013-08-15 06:33:19"
+            "time": "2013-08-22 15:04:29"
         },
         {
             "name": "silverstripe/cms",
@@ -203,12 +203,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "c4e54fd7eb55d56f821a77b832e7f44087260810"
+                "reference": "010869a9b552234e711b40a2ec02504af35e914e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/c4e54fd7eb55d56f821a77b832e7f44087260810",
-                "reference": "c4e54fd7eb55d56f821a77b832e7f44087260810",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/010869a9b552234e711b40a2ec02504af35e914e",
+                "reference": "010869a9b552234e711b40a2ec02504af35e914e",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,7 @@
                 "cms",
                 "silverstripe"
             ],
-            "time": "2013-08-20 13:37:17"
+            "time": "2013-08-20 20:32:22"
         },
         {
             "name": "silverstripe/dashboard",
@@ -295,12 +295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "351c1168b6b492cb78c00af89dab1467fa4e4fea"
+                "reference": "137aa531561482154b16916a4bac0b70076158a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/351c1168b6b492cb78c00af89dab1467fa4e4fea",
-                "reference": "351c1168b6b492cb78c00af89dab1467fa4e4fea",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/137aa531561482154b16916a4bac0b70076158a4",
+                "reference": "137aa531561482154b16916a4bac0b70076158a4",
                 "shasum": ""
             },
             "require": {
@@ -333,7 +333,7 @@
                 "framework",
                 "silverstripe"
             ],
-            "time": "2013-08-20 13:40:58"
+            "time": "2013-08-22 21:39:38"
         },
         {
             "name": "silverstripe/recaptcha",
@@ -448,12 +448,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "e03271eed40f0c9369d87e9b60c700e249a39cb5"
+                "reference": "bd3164282a72b50ef2b8936ff98e78fb76d665bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/e03271eed40f0c9369d87e9b60c700e249a39cb5",
-                "reference": "e03271eed40f0c9369d87e9b60c700e249a39cb5",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/bd3164282a72b50ef2b8936ff98e78fb76d665bf",
+                "reference": "bd3164282a72b50ef2b8936ff98e78fb76d665bf",
                 "shasum": ""
             },
             "require": {
@@ -477,7 +477,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2013-08-12 07:50:10"
+            "time": "2013-08-22 15:05:44"
         },
         {
             "name": "silverstripe/widgets",
@@ -485,12 +485,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-widgets.git",
-                "reference": "fb655f386244b5039e24bd24546176e4b0a0cb35"
+                "reference": "c8dcbf58cf5339e8716af7add921db3488a303e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/fb655f386244b5039e24bd24546176e4b0a0cb35",
-                "reference": "fb655f386244b5039e24bd24546176e4b0a0cb35",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-widgets/zipball/c8dcbf58cf5339e8716af7add921db3488a303e8",
+                "reference": "c8dcbf58cf5339e8716af7add921db3488a303e8",
                 "shasum": ""
             },
             "require": {
@@ -513,7 +513,7 @@
                 "silverstripe",
                 "widgets"
             ],
-            "time": "2013-08-20 03:16:50"
+            "time": "2013-08-22 15:05:49"
         },
         {
             "name": "simonwelsh/gridfieldrelationhandler",
@@ -521,12 +521,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simonwelsh/silverstripe-GridFieldRelationHandler.git",
-                "reference": "1.0.3"
+                "reference": "561e035cfb2177ff2471f160592d6f7513283a5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simonwelsh/silverstripe-GridFieldRelationHandler/zipball/1.0.3",
-                "reference": "1.0.3",
+                "url": "https://api.github.com/repos/simonwelsh/silverstripe-GridFieldRelationHandler/zipball/561e035cfb2177ff2471f160592d6f7513283a5c",
+                "reference": "561e035cfb2177ff2471f160592d6f7513283a5c",
                 "shasum": ""
             },
             "require": {
