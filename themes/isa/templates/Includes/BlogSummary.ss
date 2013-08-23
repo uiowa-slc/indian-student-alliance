@@ -5,7 +5,7 @@
 	<% if BlogHolder.ShowFullEntry %>
 		$Content
 	<% else %> 
-		<% if $Date %><p class="authorDate"><% _t('POSTEDON', 'Posted on') %> $Date.Long</p><% end_if %>
+		<% if $Date %><p class="authorDate"><% _t('POSTEDON', 'Posted on') %> $Date.Format( 'F-j-Y') </p><% end_if %>
 		<p>$Content.Summary(50) <a href="$Link">Read Full Post</a></p>
 	<% end_if %>
 
