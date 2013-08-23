@@ -94,6 +94,26 @@ body {
 		padding: 2em 1.5em 3em 1em;
 	}
 }
+
+.xmain-content, .sec-content {
+	@media screen and (min-width: $break-medium) {
+		float: left;
+	}
+}
+.xmain-content {
+	padding: 0 1em;
+	@media screen and (min-width: $break-medium) {
+		background: #fafafa repeat-y left top;
+		background-size: 100%; 
+		border-right: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		min-height: 530px;
+		width: 72%;
+		position: relative;
+		padding: 2em 1.5em 3em 1em;
+	}
+}
+
 .news .main-content {
 	//margin-top: 0;
 }

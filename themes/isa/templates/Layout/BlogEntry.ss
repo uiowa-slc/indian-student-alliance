@@ -3,7 +3,7 @@
     <div class="img-fifty"></div>
     <section class="container content-wrapper clearfix">
         <!-- $Breadcrumbs -->
-        <section class="main-content">
+        <section class="xmain-content">
             <article>
                 <h1 class="postTitle">$Title</h1>
                 <!-- <p class="authorDate"><% _t('POSTEDBY', 'Posted by') %> $Author.XML <% _t('POSTEDON', 'on') %> $Date.Long</p> -->
