@@ -2,7 +2,7 @@
 
 
 
-class CalendarEventExtension extends DataExtension {
+//class CalendarEventExtension extends DataExtension {
 
    /* static $has_one = array(
         'MainImage' => 'Image',
@@ -23,4 +23,4 @@ class CalendarEventExtension extends DataExtension {
 
 
 
-}
+//}
