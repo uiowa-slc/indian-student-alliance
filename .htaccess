@@ -19,6 +19,7 @@
 
 ErrorDocument 404 /assets/error-404.html
 ErrorDocument 500 /assets/error-500.html
+php_value display_errors On
 
 <IfModule mod_rewrite.c>
 	SetEnv HTTP_MOD_REWRITE On

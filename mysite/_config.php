@@ -16,7 +16,7 @@ $databaseConfig = array(
 // Set the site locale
 i18n::set_locale('en_US');
 Director::set_environment_type("dev");
-
+error_reporting(E_ALL);
 // add a button to remove formatting
 HtmlEditorConfig::get('cms')->insertButtonsBefore(
     'styleselect',
