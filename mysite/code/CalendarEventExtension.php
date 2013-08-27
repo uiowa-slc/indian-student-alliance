@@ -2,9 +2,9 @@
 
 
 
-//class CalendarEventExtension extends DataExtension {
+class CalendarEventExtension extends CalendarEvent {
 
-   /* static $has_one = array(
+   static $has_one = array(
         'MainImage' => 'Image',
     );
     
@@ -19,8 +19,8 @@
     
       $fields->addFieldToTab("Root.Main", new UploadField('MainImage','Main Image'), 'Content');
 
-    }*/
+    }
 
 
 
-//}
+}
