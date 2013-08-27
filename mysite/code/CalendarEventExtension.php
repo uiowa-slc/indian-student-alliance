@@ -8,17 +8,16 @@ class CalendarEventExtension extends DataExtension {
         'MainImage' => 'Image',
     );
     
-    public function getCMSFields() {
-      $this->extend('updateCMSFields', $fields);
+    //public function getCMSFields() {
+    //  $this->extend('updateCMSFields', $fields);
+    //  return $fields;
       
-      return $fields;
-      
-    }
+   // }
 
 
     public function updateCMSFields(FieldList $fields) {
     
-      //$fields->addFieldToTab("Root.Main", new UploadField('MainImage','Main Image'), 'Content');
+      $fields->addFieldToTab("Root.Main", new UploadField('MainImage','Main Image'), 'Content');
 
     }
 
