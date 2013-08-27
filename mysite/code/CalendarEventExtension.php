@@ -18,7 +18,7 @@ class CalendarEventExtension extends DataExtension {
 
     public function updateCMSFields(FieldList $fields) {
     
-      $fields->addFieldToTab("Root.Main", new UploadField('MainImage','Main Image'), 'Content');
+      //$fields->addFieldToTab("Root.Main", new UploadField('MainImage','Main Image'), 'Content');
 
     }
 
