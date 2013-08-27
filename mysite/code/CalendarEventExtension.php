@@ -2,10 +2,10 @@
 
 
 
-class CalendarEventExtension extends CalendarEvent {
+class CalendarEventExtension extends DataExtension {
 
     static $has_one = array(
-        'Image' => 'Image',
+        'MainImage' => 'Image',
     );
     
     public function getCMSFields() {
@@ -18,7 +18,7 @@ class CalendarEventExtension extends CalendarEvent {
 
     public function updateCMSFields(FieldList $fields) {
     
-      $fields->addFieldToTab("Root.Main", new UploadField('Image', 'Main Image'), 'Content');
+      $fields->addFieldToTab("Root.Main", new UploadField('MainImage','Main Image'), 'Content');
 
     }
 
