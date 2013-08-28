@@ -11,12 +11,11 @@
     <div class="img-fifty"></div>
     <section class="container content-wrapper clearfix">
         <!-- $Breadcrumbs -->
-        <section class="main-content">
-
-       <h2>$Title</h2>
-		<p class="feed"><a href="$Link(rss)"><% _t('SUBSCRIBE','Calendar RSS Feed') %></a></p>
-
-
+        <section class="calendar-main-content">
+	    <div class = "eventsHead">
+	        <h2>$Title</h2>
+			<p class="feed"><a href="$Link(rss)"><% _t('SUBSCRIBE','Calendar RSS Feed') %></a></p>
+		</div>
 		$Content
 		<% if Events %>
 		<div id="event-calendar-events">

@@ -6,6 +6,7 @@ class CalendarEventExtension extends DataExtension {
 
    static $has_one = array(
         'MainImage' => 'Image',
+        'Image' => 'Image',
     );
     
     public function getCMSFields() {
