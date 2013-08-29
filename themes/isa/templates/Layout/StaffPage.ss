@@ -1,21 +1,25 @@
 <div style="position: relative;" class="news">
     <div class="img-fifty"></div>
-      <section class="container content-wrapper clearfix">
+      <section class="container Bcontent-wrapper clearfix">
             <!-- $Breadcrumbs -->
             <section class="xmain-content">
 
-            	<h1>$Title</h1>
+            	
 
             	<% if $Photo %>
-            		<img src="$Photo.CroppedImage(765,512).URL" alt="$FirstName $LastName">
+            	<div class = "staffImg">
+            		<img src="$Photo.CroppedImage(350,334).URL" alt="$FirstName $LastName">
+            	</div>
             	<% end_if %>
-            	
-            	$Content
-
+            	<div class = "staffInfo">
+            	<h1>$Title</h1>
+            		$Content
+            		$Email
+            	</div>
             </section>
             <section class="sec-content">
             	<% include SideNav %>
             </section>
       </section>
 </div>
-<%-- <% include TopicsAndNews %> --%>
+<% include TopicsAndNews %> 

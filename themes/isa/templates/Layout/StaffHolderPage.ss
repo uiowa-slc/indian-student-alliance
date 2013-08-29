@@ -1,3 +1,11 @@
+<% if $BackgroundImage %>
+    	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
+    	</div>
+    <% else %>
+    	<div class="img-container" style="background-image: url(assets/Uploads/rszcabexecphoto.jpg);">
+    		<div class="img-fifty-top"></div>
+    	</div>
+<% end_if %>
 <div style="position: relative;">
       <section class="container Bcontent-wrapper clearfix staff">
             <!-- $Breadcrumbs -->
@@ -6,7 +14,7 @@
             	$Content
             	<% loop Teams %>
                         
-            	     <h2 class="staff-title">$Title</h2>
+            	     <!--<h2 class="staff-title">$Title</h2>-->
 
                         <ul class="staff-list">
                         <% loop $SortedStaffPages %>
@@ -14,7 +22,7 @@
                                     <% if $Photo %>
                                     <a href="$Link" class="staff-link">
                                           
-                                          <img src="$Photo.CroppedImage(350,234).URL" alt="$FirstName $LastName" class="staff-img">
+                                          <img src="$Photo.CroppedImage(350,334).URL" alt="$FirstName $LastName" class="staff-img">
                                     </a>
                                     <% else %>
                                     <a href="$Link" class="staff-link">
@@ -37,4 +45,4 @@
             </section>
       </section>
 </div>
-<%-- <% include TopicsAndNews %> --%>
+<% include TopicsAndNews %>

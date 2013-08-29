@@ -275,12 +275,21 @@ body {
 	margin-bottom: .8em;
 	padding-bottom: 5px;
 	text-transform: uppercase;
+	
+}
+.TNmod h3 {
+	font-size: 3.2em;
+    line-height: 27px;
+	margin-bottom: .8em;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #ffa700;
 }
 .mod-news small {
 	display: block;
 }
-.mod a {
-	color: #fff3d0;
+.TNmod a {
+	color: white;
 }
 
 aside .mod {
@@ -371,6 +380,15 @@ aside .mod {
 
 /* Staff Page
 ========================================================================== */
+.staffInfo{
+	
+}
+.staffImg{
+	float: right; 
+	width: 50%;
+	padding-left: 40px;
+	margin-top: 27px;  
+}
 .staff-title {
 	clear: both;
 }
@@ -585,6 +603,9 @@ aside .mod {
 /* Modifying the Images*/
 #grbb{
 	background-position: 0 -40px;
+}
+#grbb-3 {
+	//background-position: 0 40px; 
 }
 
 //The little header in events

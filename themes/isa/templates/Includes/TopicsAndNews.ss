@@ -1,7 +1,7 @@
       <section class="topics-news" padding hide-print">
             <div class="container ">
                 <div class="colgroup">
-                    <div class="col-1-2 mod">
+                    <div class="col-1-2 TNmod">
                         <h3 class="mod-title">Community Topics</h3>
                         <ul class="grid-justify">
                           <% with Page("community") %>
@@ -9,9 +9,10 @@
                               <li><a href="$Link">$MenuTitle</a></li>
                               <% end_loop %>
                             <% end_with %>
+                            <li><a href="$Link">View all Topics</a></li>
                         </ul>
                     </div>
-                    <div class="col-1-4 mod mod-news">
+                    <div class="col-1-2 TNmod mod-news">
                       <% with Page(news) %>
               <% if $Entries %>
                     <h3 class="mod-title">Latest News</h3>

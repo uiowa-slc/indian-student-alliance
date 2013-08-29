@@ -12,7 +12,7 @@
                          <% _t('TAGS', 'Tags:') %> 
                         <% loop TagsCollection %>
                             <a href="$Link" title="<% _t('VIEWALLPOSTTAGGED', 'View all posts tagged') %> '$Tag'" rel="tag">$Tag</a><% if not Last %>,<% end_if %>
-                        <% end_loop %>
+                        <% end_loop  %>
                     </p>
                 <% end_if %>
                 
@@ -32,7 +32,7 @@
     </section>
 </div>
 
-<%-- <% include TopicsAndNews %> --%>
+<% include TopicsAndNews %>
     
 
 
