@@ -183,6 +183,14 @@ body {
   .container {}
 }
 
+//Topic and News, VIEWALL CSS
+#viewAll {
+	color: #ffa700;
+	font-size: 1.1em;
+	font-weight: bolder;
+	
+}
+
 /* Header
 ========================================================================== */
 .header {
@@ -278,18 +286,32 @@ body {
 	
 }
 .TNmod h3 {
-	font-size: 3.2em;
+	font-size: 2.2em;
     line-height: 27px;
 	margin-bottom: .8em;
 	padding-bottom: 5px;
 	text-transform: uppercase;
 	border-bottom: 3px solid #ffa700;
+	@media screen and (min-width: 923px){
+		font-size: 3.1em;
+	    line-height: 27px;
+		margin-bottom: .8em;
+		padding-bottom: 5px;
+		text-transform: uppercase;
+		border-bottom: 3px solid #ffa700;
+	}
+	
 }
 .mod-news small {
 	display: block;
 }
 .TNmod a {
 	color: white;
+}
+
+.TNmod ul {
+	margin-left: 0px; 
+	margin-bottom: 24px; 
 }
 
 aside .mod {
@@ -583,13 +605,38 @@ aside .mod {
 	top: 0;
 }
 /* event list CSS*/
+// event page title
+.title {
+	margin-top:0px;
+	text-align: center;
+	padding-top: 0.3em;
+	padding-right: 12em;
+	padding-left: 11px;
+	color: white; 
+	font-size: 4.2em;
+	@media screen and (min-width: $break-medium){
+		margin-top:0px;
+		text-align: center;
+		padding-top: 1em;
+		padding-right: 12em;
+		padding-left: 11px;
+		color: white; 
+		font-size: 5.2em;
+	}
+}
 
 //List element content modifier
 .ListE {
 	padding: .2em 1em .2em 1em;  
-	margin: 13em 0em -1em 0em; 
+	margin: 8em 0em -1em 0em; 
 	background-color: rgba(0,0,0,0.8);
 	color: #fff;
+	@media screen and (min-width: $break-medium){
+		padding: .2em 1em .2em 1em;  
+		margin: 13em 0em -1em 0em; 
+		background-color: rgba(0,0,0,0.8);
+		color: #fff;
+	}
 }
 
 .ListH{

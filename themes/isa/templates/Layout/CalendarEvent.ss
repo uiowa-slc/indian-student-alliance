@@ -1,8 +1,8 @@
 <% if $BackgroundImage %>
     	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
-    		<div class = "title">
-    			<h2>$Title</h2>
-    		</div>
+    		
+    		<h2 class = "title">$Title</h2>
+    		
     		<div class="img-fifty-top"></div>
     	</div>
     <% else %>

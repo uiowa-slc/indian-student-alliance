@@ -3,17 +3,17 @@
                 <div class="colgroup">
                     <div class="col-1-2 TNmod">
                         <h3 class="mod-title">Community Topics</h3>
-                        <ul class="grid-justify">
+                        <ul class>
                           <% with Page("community") %>
                             <% loop $Entries('8') %>
                               <li><a href="$Link">$MenuTitle</a></li>
                               <% end_loop %>
                             <% end_with %>
-                            <li><a href="$Link">View all Topics</a></li>
+                            <li><a id = "viewAll" href="$Link">View all Topics</a></li>
                         </ul>
                     </div>
                     <div class="col-1-2 TNmod mod-news">
-                      <% with Page(news) %>
+                      <% with Page(community) %>
               <% if $Entries %>
                     <h3 class="mod-title">Latest News</h3>
                     <ul class="unstyled">
@@ -22,7 +22,7 @@
                         <% if $Date %><small>$Date.Format('M. j')</small><% end_if %>
                       </li>
                       <% end_loop %>
-                      <li><a href="$Link">View all News</a></li>
+                      <li><a id = "viewAll" href="$Link">View all News</a></li>
 
                     </ul>
               <% end_if %>
