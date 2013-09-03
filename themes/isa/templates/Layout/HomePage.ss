@@ -1,4 +1,12 @@
-<div class="hero">
+<% if $LatestEvent %>
+<% loop $LatestEvent %>
+
+<div class = "hero" style="background-image: url({$MainImage.URL}); background-size: 1090px;">
+
+<% end_loop %>
+<% else %>
+<div class = "hero">
+<% end_if %> 
   <% include Header %>
         <div class="container clearfix">
 	        <div class="hero-text">
@@ -9,40 +17,33 @@
                     <li><a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife">Learn about the Community</a></li>
                 </ul>
             </div>
-        <% if HomePageHeroFeatures.limit(2) %>
+            <% if $LatestEvent %>
             <div class="hero-article-wrapper">
-
-                <% loop HomePageHeroFeatures %>
-                <div class="hero-article clearfix">
-                    <% if $Image %>
-                      <% if $UseExternalLink %>
-                        <a href="$ExternalLink" target="_blank"><img src="$Image.URL" alt=""></a>
-                      <% else %>
-                          <a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
-                        <% end_if %>
-                    <% end_if %>
-                    <h3 class="hero-title">
-                      <% if $UseExternalLink %>
-                        <a href="$ExternalLink" target="_blank">$Title</a>
-                      <% else %>
-                        <a href="$AssociatedPage.Link">$Title</a>
-                      <% end_if %>
-                    </h3>
-                    <div class="hero-content">$Content</div>
-                    <% if $UseExternalLink %>
-                      <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
-                    <% else %>
-                      <a href="$AssociatedPage.Link" class="hero-link">Read More</a>
-                    <% end_if %>
-                </div>
-              <% end_loop %>
-
-
-            </div>
-         <% end_if %>
-          
-        </div>
-
+	            <div class="hero-article clearfix">
+	           
+	           
+	            	<% loop $LatestEvent %>
+	            
+                        <h3 class="hero-title">
+		                        <% if $UseExternalLink %>
+			                        <a href="$ExternalLink" target="_blank">Coming Up: $Title</a>
+			                        <% else %>
+			              	          <a href="$AssociatedPage.Link">Coming Up: $Title</a>
+			                        <% end_if %>
+			            </h3>
+              	      <div class="hero-content"> $Content.Summary(50)</div>
+	              	      <% if $UseExternalLink %>
+	               	       <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
+	                      <% else %>
+	                	      <a href="$AssociatedPage.Link" class="hero-link">Read More</a>
+	                      <% end_if %>
+	                      
+	            	<% end_loop %>           
+              
+              </div>
+           </div>
+           <% end_if %>
+         </div> 
     </div>
   <section class="home-highlights">
         <div class="container clearfix">
@@ -53,7 +54,7 @@
                     $YouTubeEmbed
                   <% else %>
                       <a href="$AssociatedPage.Link">
-                          <img src="$Image.CroppedImage(350,197).URL" alt="$Title">
+                         <img src="$Image.CroppedImage(350,197).URL" alt="$Title">
                       </a>
                   <% end_if %>
                   </div>

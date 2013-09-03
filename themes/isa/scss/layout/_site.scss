@@ -28,7 +28,7 @@ body {
 .container {
 	margin: 0 auto;
 	max-width: $break-xlarge;
-	padding: 0 1em;
+	padding: 1em 1em 1em 1em;
 	position: relative;
 	@media screen and (min-width: $break-medium) {
 		padding: 0 2em;
@@ -119,12 +119,11 @@ body {
 	@media screen and (min-width: $break-medium) {
 		background: #fafafa repeat-y left top;
 		background-size: 100%; 
-		border-right: 1px solid #ddd;
+		//border-right: 1px solid #ddd;
 		border-left: 1px solid #ddd;
 		min-height: 530px;
 		width: 72%;
 		position: relative;
-		margin-top: -85px;
 		padding: 2em 0em 3em 0em;
 	}
 }
@@ -186,7 +185,7 @@ body {
 //Topic and News, VIEWALL CSS
 #viewAll {
 	color: #ffa700;
-	font-size: 1.1em;
+	font-size: 1.4em;
 	font-weight: bolder;
 	
 }
@@ -295,7 +294,7 @@ body {
 	@media screen and (min-width: 923px){
 		font-size: 3.1em;
 	    line-height: 27px;
-		margin-bottom: .8em;
+		margin-bottom: .6em;
 		padding-bottom: 5px;
 		text-transform: uppercase;
 		border-bottom: 3px solid #ffa700;
@@ -312,6 +311,13 @@ body {
 .TNmod ul {
 	margin-left: 0px; 
 	margin-bottom: 24px; 
+}
+
+.viewTN{
+	padding-top: 1em; 
+	a{
+		font-size: 1.4em; 
+	}	
 }
 
 aside .mod {
@@ -625,6 +631,37 @@ aside .mod {
 	}
 }
 
+.titleExec {
+	//margin-top:0px;
+	text-align: center;
+	padding-top: 2.4em;
+	text-shadow: 4px 4px #000; 
+	h1{
+		font-size: 3.1em; 
+	}
+	h3{
+		font-size: 1.2em; 
+	} 
+	//font-size: 4.2em;
+	
+	@media screen and (min-width: $break-medium){
+		text-align: center;
+		padding-top: 5.5em;
+		text-shadow: 4px 4px #000;  
+		//font-size: 4.2em;
+		h1{
+			font-size: 6.1em; 
+		}
+		h3{
+			font-size: 2.2em; 
+		}
+	}
+	h3, h2, h1 {
+		color: white;
+	}
+	
+	
+}
 //List element content modifier
 .ListE {
 	padding: .2em 1em .2em 1em;  

@@ -1,6 +1,7 @@
 /* Home Hero
 ========================================================================== */
 .hero {
+	background-image: none; 
 	border-bottom: 5px solid $green;
 	position: relative;
 	padding: 0;
@@ -31,6 +32,7 @@
 	}
 }
 .hero-text {	
+	color: white; 
 	@media screen and (min-width: $break-medium) {
 		position: absolute;
 		left: 1em;
@@ -47,6 +49,7 @@
 	font-weight: 600;
 	line-height: 1.35;
 	padding: 1px;
+	color: #fff; 
 	@media screen and (min-width: $break-small) {
 		background: #000;
 		background: rgba(0,0,0,.8);
@@ -116,6 +119,9 @@
 	margin-top: 1.7em;
 	padding-top: 1em;
 	width: 100%;
+	
+	//padding: 10px;
+	color: white; 
 	@media screen and (min-width: $break-small) and (max-width: $break-medium) {
 		border: none;
 		float: left;
@@ -128,6 +134,8 @@
 	@media screen and (min-width: $break-medium) {
 		float: none;
 		width: 100%;
+	
+		
 	}
 }
 .hero-article:first-child {
@@ -135,6 +143,10 @@
 	margin-top: 0;
 	margin-right: 2%;
 	padding-top: 0;
+	@media screen and (max-width: 479px){
+		padding: 10px; 
+		background: rgba(10, 10, 10, 0.7);
+	}
 	@media screen and (min-width: $break-small) and (max-width: $break-medium) {
 		padding-top: 10px;
 	}

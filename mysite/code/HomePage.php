@@ -63,7 +63,16 @@ class HomePage_Controller extends Page_Controller {
 		parent::init();
 
 	}
-
+	
+	public function LatestEvent() {
+		$calendar = Calendar::get()->first(); 
+		$LatestDateEvent = $calendar->UpcomingEvents()->first(); 
+		if ($LatestDateEvent) {
+			$LatestEvent = $LatestDateEvent->Event();
+			return $LatestEvent;
+		}
+	}
+	
 	public function HomePageFeatures() {
 		$features = HomePageFeature::get();
 

@@ -23,8 +23,7 @@
 				</div>
 			</div>
 			<div class="col-1-4 hide-print">
-				<h4>Fill in the Blank</h4>
-				
+				<img src="{$ThemeDir}/images/herky.png" alt="Division Of Student Life"/>
 			</div>
         </div>
         <hr>
