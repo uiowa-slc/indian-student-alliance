@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<div class="col-1-4 hide-print">
-				<img src="{$ThemeDir}/images/herky.png" alt="Division Of Student Life"/>
+				
 			</div>
         </div>
         <hr>

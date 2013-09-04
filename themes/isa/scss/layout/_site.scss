@@ -310,11 +310,17 @@ body {
 
 .TNmod ul {
 	margin-left: 0px; 
-	margin-bottom: 24px; 
+	margin-bottom: 24px;
+	li {
+		padding: 6px 0px 0px 0px; 
+		font-size: 1.1em; 
+	} 
+	.viewTN{
+		padding-top: 1.5em; 
+	}
 }
 
-.viewTN{
-	padding-top: 1em; 
+.viewTN{ 
 	a{
 		font-size: 1.4em; 
 	}	

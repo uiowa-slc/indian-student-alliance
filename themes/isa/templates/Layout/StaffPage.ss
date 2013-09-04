@@ -14,7 +14,7 @@
             	<div class = "staffInfo">
             	<h1>$Title</h1>
             		$Content
-            		$Email
+            		<a href="mailto:$Email">Email Me</a>
             	</div>
             </section>
             <section class="sec-content">
