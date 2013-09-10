@@ -1,7 +1,7 @@
 <% if $LatestEvent %>
 <% loop $LatestEvent %>
 
-<div class = "hero" style="background-image: url({$MainImage.URL}); background-size: 1090px;">
+<div class = "hero" style="background-image: url({$MainImage.URL}); background-size: cover;">
 
 <% end_loop %>
 <% else %>

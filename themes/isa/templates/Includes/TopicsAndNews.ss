@@ -5,7 +5,7 @@
                         <h3 class="mod-title ">Community Topics</h3>
                         <ul>
                           <% with Page("community") %>
-                            <% loop $Entries('8') %>
+                            <% loop $Entries('8', 'community') %>
                               <li><a href="$Link">$MenuTitle</a>
                               <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
                               </li>
