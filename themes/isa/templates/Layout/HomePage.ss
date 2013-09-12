@@ -12,8 +12,8 @@
 	        <div class="hero-text">
                 <h2 class="blocktext">Welcome to the Indian Student Alliance.</h2>
                 <ul>
-                    <li><a href="/vp-for-student-life/about/">Our Events</a></li>
-                    <li><a href="/vp-for-student-life/staff/">Meet Us</a></li>
+                    <li><a href="/isa2/about/">Our Events</a></li>
+                    <li><a href="/isa2/board/">Meet Us</a></li>
                     <li><a href="https://www.givetoiowa.org/GiveToIowa/WebObjects/GiveToIowa.woa/wa/goTo?area=studentlife">Learn about the Community</a></li>
                 </ul>
             </div>
