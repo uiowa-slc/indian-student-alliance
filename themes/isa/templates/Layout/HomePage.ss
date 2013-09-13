@@ -28,14 +28,14 @@
 		                        <% if $UseExternalLink %>
 			                        <a href="$ExternalLink" target="_blank">Coming Up: $Title</a>
 			                        <% else %>
-			              	          <a href="$AssociatedPage.Link">Coming Up: $Title</a>
+			              	          <a href="$Link">Coming Up: $Title</a>
 			                        <% end_if %>
 			            </h3>
               	      <div class="hero-content"> $Content.Summary(50)</div>
 	              	      <% if $UseExternalLink %>
-	               	       <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
+	               	       <a href="$ExternalLink" target="_blank" class="hero-link">Read External More</a>
 	                      <% else %>
-	                	      <a href="$AssociatedPage.Link" class="hero-link">Read More</a>
+	                	      <a href="$Link" class="hero-link">Read More</a>
 	                      <% end_if %>
 	                      
 	            	<% end_loop %>           
