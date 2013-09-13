@@ -1,5 +1,5 @@
 <% if $BackgroundImage %>
-    	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
+    	<div class="img-container $URLSegment" style="background-image: url($BackgroundImage.URL);">
     		
     		<h2 class = "title">$Title</h2>
     		
