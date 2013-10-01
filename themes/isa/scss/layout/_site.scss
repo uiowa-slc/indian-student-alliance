@@ -586,6 +586,16 @@ aside .mod {
 	
 
 }
+
+.grbb {
+	@media screen and (min-width: $break-medium) {
+		height: 400px;
+		padding-top: 0;
+		background-position: 0px -118px; 
+		//background-size: auto;
+	}
+}
+
 .img-fifty {
 	visibility: hidden;
 	@media screen and (min-width: $break-medium) {
@@ -741,7 +751,7 @@ aside .mod {
 		color: white; 
 	}
 	background: none; 
-	width: 778px; 
+	width: 97%; 
 }
 
 .mevent {
