@@ -19,11 +19,11 @@
                       <% with Page(news) %>
               <% if $Entries %>
                     <h3 class="mod-title">Latest News</h3>
-                    <ul class="unstyled">
+                    <ul>
                       <% loop $Entries('3') %>
-                      <li><a href="$Link">$MenuTitle</a>
+                      <li><h4><a href="$Link">$MenuTitle</a></h4>
                         <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
-                       
+                        <p>$Content.Summary(30)</p>
                       </li>
                       <% end_loop %>
                       <li class = " viewTN"><a id = "viewAll" href="$Link">View all News</a></li>
