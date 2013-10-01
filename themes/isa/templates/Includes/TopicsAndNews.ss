@@ -5,9 +5,10 @@
                         <h3 class="mod-title ">Community Topics</h3>
                         <ul>
                           <% with Page("community") %>
-                            <% loop $Entries('8', 'community') %>
-                              <li><a href="$Link">$MenuTitle</a>
+                            <% loop $Entries('4', 'community') %>
+                              <li><h4><a href="$Link">$MenuTitle</a></h4>
                               <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
+                               <p>$Content.Summary(30)</p>
                               </li>
                               <% end_loop %>
                             <% end_with %>
@@ -15,13 +16,14 @@
                         </ul>
                     </div>
                     <div class="col-1-2 TNmod mod-news">
-                      <% with Page(community) %>
+                      <% with Page(news) %>
               <% if $Entries %>
                     <h3 class="mod-title">Latest News</h3>
                     <ul class="unstyled">
-                      <% loop $Entries('3','news') %>
+                      <% loop $Entries('3') %>
                       <li><a href="$Link">$MenuTitle</a>
                         <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
+                       
                       </li>
                       <% end_loop %>
                       <li class = " viewTN"><a id = "viewAll" href="$Link">View all News</a></li>

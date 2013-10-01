@@ -6,7 +6,7 @@
 		  <div class = "ListE">
 		  <p >$DateRange <% if AllDay %><% _t('ALLDAY','All Day') %><% else %><% if StartTime %>$TimeRange<% end_if %><% end_if %></p>
 		 
-		  <p ><a href="$ICSLink"><% _t('ADD','Add this to Calendar') %></a></p>
+		 <!-- <p ><a href="$ICSLink"><% _t('ADD','Add this to Calendar') %></a></p> -->
 		  
 		  <% if Announcement %>
 		  $Content

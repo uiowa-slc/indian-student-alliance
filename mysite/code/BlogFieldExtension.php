@@ -16,7 +16,7 @@ class BlogFieldExtension extends DataExtension {
     public function updateCMSFields(FieldList $fields) {
       $fields->addFieldToTab("Root.Main", new UploadField('Image', 'Main Image'), 'Content');
       $fields->removeByName("Author");
-	  
+	  $fields->removeByName("BackgroundImage");
       if($this->owner->ClassName == "BlogEntry"){
         $fields->removeByName("Date");
       }else {

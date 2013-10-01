@@ -1,7 +1,7 @@
 <% if $LatestEvent %>
 <% loop $LatestEvent %>
 
-<div class = "hero" style="background-image: url({$MainImage.URL}); background-size: cover;">
+<div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
 
 <% end_loop %>
 <% else %>
@@ -33,7 +33,7 @@
 			            </h3>
               	      <div class="hero-content"> $Content.Summary(50)</div>
 	              	      <% if $UseExternalLink %>
-	               	       <a href="$ExternalLink" target="_blank" class="hero-link">Read External More</a>
+	               	       <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
 	                      <% else %>
 	                	      <a href="$Link" class="hero-link">Read More</a>
 	                      <% end_if %>
