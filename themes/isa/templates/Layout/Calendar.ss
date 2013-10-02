@@ -12,7 +12,6 @@
 		<% end_if %>
         </section>
         <section class="sec-content hide-print">
-  			<% include QuickNav %>
 
         </section>
     </section>
