@@ -3275,7 +3275,7 @@ body {
     background-size: 100%;
     border-left: 1px solid #ddd;
     min-height: 530px;
-    width: 72%;
+    width: 100%;
     position: relative;
     padding: 2em 0em 3em 0em;
   }

@@ -11,9 +11,6 @@
 		  <p><% _t('NOEVENTS','There are no events') %>.</p>
 		<% end_if %>
         </section>
-        <section class="sec-content hide-print">
-
-        </section>
     </section>
 </div>
 <% include TopicsAndNews %>
