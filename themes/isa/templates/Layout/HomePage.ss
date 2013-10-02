@@ -1,4 +1,4 @@
-<% if $LatestEvent %>
+<% if not $LatestEvent %>
 <% loop $LatestEvent %>
 
 
