@@ -284,6 +284,11 @@ body {
 	text-transform: uppercase;
 	
 }
+
+ul li h5 {
+	margin-top: -10px; 
+}
+// TNmod, stands for the topic news module!
 .TNmod h3 {
 	font-size: 2.2em;
     line-height: 27px;
@@ -305,7 +310,6 @@ body {
 	display: block;
 }
 
-// TNmod, stands for the topic news module!
 .TNmod a {
 	color: #F89748;
 }
