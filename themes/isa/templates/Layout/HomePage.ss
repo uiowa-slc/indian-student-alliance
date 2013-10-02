@@ -4,9 +4,9 @@
 
 <% end_loop %>
 <% else %>
-<% loop HomePageHeroFeatures %>
+
 <div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
-<% end_loop %> 
+
 <% end_if %> 
   <% include Header %>
         <div class="container clearfix">
