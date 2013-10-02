@@ -4,8 +4,8 @@
 
 <% end_loop %>
 <% else %>
+<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
 
-<div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
 
 <% end_if %> 
   <% include Header %>
