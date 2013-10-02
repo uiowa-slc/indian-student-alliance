@@ -9,6 +9,7 @@
                               <li><h4><a href="$Link">$MenuTitle</a></h4>
                               <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
                                <p>$Content.Summary(30)</p>
+                                <h5><a href="$Link">Read More</a></h5>
                               </li>
                               <% end_loop %>
                             <% end_with %>
