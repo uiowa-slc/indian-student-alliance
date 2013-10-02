@@ -12,8 +12,6 @@
 		<% end_if %>
         </section>
         <section class="sec-content hide-print">
-        	$CalendarWidget
-  			$MonthJumper
   			<% include QuickNav %>
 
         </section>
