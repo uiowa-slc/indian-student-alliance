@@ -4055,7 +4055,6 @@ aside .mod a {
 /* line 755, ../scss/layout/_site.scss */
 .vevent {
   background: none;
-  width: 97%;
 }
 /* line 756, ../scss/layout/_site.scss */
 .vevent h1 {
@@ -4067,16 +4066,16 @@ aside .mod a {
   color: white;
 }
 
-/* line 767, ../scss/layout/_site.scss */
+/* line 766, ../scss/layout/_site.scss */
 .mevent {
   color: #b1b1b1;
 }
-/* line 769, ../scss/layout/_site.scss */
+/* line 768, ../scss/layout/_site.scss */
 .mevent h1 {
   color: #ffce39;
   padding-bottom: 0px;
 }
-/* line 773, ../scss/layout/_site.scss */
+/* line 772, ../scss/layout/_site.scss */
 .mevent h2 {
   color: white;
 }
