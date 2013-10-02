@@ -1,7 +1,6 @@
 <% if $LatestEvent %>
 <% loop $LatestEvent %>
 
-<div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
 
 <% end_loop %>
 <% else %>
