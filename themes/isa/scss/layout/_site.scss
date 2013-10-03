@@ -728,17 +728,22 @@ aside .mod {
 }
 
 #grbb-3 {
-	h3{
-			font-size: 1.23em; 
-	}
 	//background-position: 0 40px; 
-	@media screen and (min-width: 473px){
+	@media (min-width: 0px) and (max-width: 500px){
 		h3{
-			font-size: 1.73em; 
+			font-size: 1.23em; 
 		}
 	}
 }
 
+#grbb-4 {
+	//background-position: 0 40px; 
+	@media (min-width: 0px) and (max-width: 500px){
+		h3{
+			font-size: 1.23em; 
+		}
+	}
+}
 //The little header in events
 .eventsHead{
 	margin-top: -1.7em; 

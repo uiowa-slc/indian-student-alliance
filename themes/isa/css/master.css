@@ -4029,41 +4029,44 @@ aside .mod a {
   }
 }
 
-/* line 731, ../scss/layout/_site.scss */
-#grbb-3 h3 {
-  font-size: 1.23em;
-}
-@media screen and (min-width: 473px) {
-  /* line 736, ../scss/layout/_site.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 733, ../scss/layout/_site.scss */
   #grbb-3 h3 {
-    font-size: 1.73em;
+    font-size: 1.23em;
   }
 }
 
-/* line 743, ../scss/layout/_site.scss */
+@media (min-width: 0px) and (max-width: 500px) {
+  /* line 742, ../scss/layout/_site.scss */
+  #grbb-4 h3 {
+    font-size: 1.23em;
+  }
+}
+
+/* line 748, ../scss/layout/_site.scss */
 .eventsHead {
   margin-top: -1.7em;
   margin-bottom: 2.1em;
 }
 
-/* line 748, ../scss/layout/_site.scss */
+/* line 753, ../scss/layout/_site.scss */
 .event-calendar-controls {
   padding-bottom: 2em;
 }
 
-/* line 752, ../scss/layout/_site.scss */
+/* line 757, ../scss/layout/_site.scss */
 .innerBackground {
   background: rgba(0, 0, 0, 0.72);
   padding: 10px 10px 17px 10px;
   width: 100%;
 }
 
-/* line 758, ../scss/layout/_site.scss */
+/* line 763, ../scss/layout/_site.scss */
 .sInnerBground {
   background: rgba(0, 0, 0, 0.72);
 }
 
-/* line 762, ../scss/layout/_site.scss */
+/* line 767, ../scss/layout/_site.scss */
 .eList {
   padding: 10px 10px 17px 10px;
   width: 100%;
@@ -4071,37 +4074,37 @@ aside .mod a {
   background: rgba(0, 0, 0, 0.72);
 }
 
-/* line 769, ../scss/layout/_site.scss */
+/* line 774, ../scss/layout/_site.scss */
 .event {
   padding: 10px 10px 17px 20px;
   width: 100%;
   display: block;
 }
 
-/* line 776, ../scss/layout/_site.scss */
+/* line 781, ../scss/layout/_site.scss */
 .vevent {
   background: none;
 }
-/* line 777, ../scss/layout/_site.scss */
+/* line 782, ../scss/layout/_site.scss */
 .vevent h1 {
   color: #ffce39;
   padding-bottom: 0px;
 }
-/* line 781, ../scss/layout/_site.scss */
+/* line 786, ../scss/layout/_site.scss */
 .vevent h2 {
   color: white;
 }
 
-/* line 787, ../scss/layout/_site.scss */
+/* line 792, ../scss/layout/_site.scss */
 .mevent {
   color: #b1b1b1;
 }
-/* line 789, ../scss/layout/_site.scss */
+/* line 794, ../scss/layout/_site.scss */
 .mevent h1 {
   color: #ffce39;
   padding-bottom: 0px;
 }
-/* line 793, ../scss/layout/_site.scss */
+/* line 798, ../scss/layout/_site.scss */
 .mevent h2 {
   color: white;
 }
