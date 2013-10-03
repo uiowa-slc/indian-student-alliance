@@ -1,4 +1,4 @@
-<% if not $LatestEvent %>
+<% if $LatestEvent %>
 <% loop $LatestEvent %>
 
 <div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
@@ -17,7 +17,7 @@
                     <li><a href="/isa2/community">Learn about the Community</a></li>
                 </ul>
             </div>
-            <% if not $LatestEvent %>
+            <% if $LatestEvent %>
             <div class="hero-article-wrapper">
 	            <div class="hero-article clearfix">
 	           
