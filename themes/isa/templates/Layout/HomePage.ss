@@ -17,7 +17,7 @@
                     <li><a href="/isa2/community">Learn about the Community</a></li>
                 </ul>
             </div>
-            <% if $LatestEvent %>
+            <% if not $LatestEvent %>
             <div class="hero-article-wrapper">
 	            <div class="hero-article clearfix">
 	           
@@ -42,14 +42,11 @@
               
               </div>
            </div>
-           <% else_if HomePageHeroFeatures.limit(2) %>
+           <% else %>
             <div class="hero-article-wrapper">
 
                 <% loop HomePageHeroFeatures %>
 	                <div class="hero-article clearfix">
-	                    <% if $Image %>
-	                        <a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
-	                    <% end_if %>
 	                    <h3 class="hero-title"><a href="$AssociatedPage.Link">$Title</a></h3>
 	                    <div class="hero-content">$Content</div>
 	                    <a href="$AssociatedPage.Link" class="hero-link">Read More</a>
