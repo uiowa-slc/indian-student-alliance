@@ -4,7 +4,9 @@
 
 <% end_loop %>
 <% else %>
-<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
+<div class = "hero">
+	<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
+</div>
 
 
 <% end_if %> 
