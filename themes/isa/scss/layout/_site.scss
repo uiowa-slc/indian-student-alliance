@@ -720,6 +720,13 @@ aside .mod {
 #grbb{
 	background-position: 0 -40px;
 }
+
+#grbb.EList {
+	@media screen and (min-width: 473px){
+		margin: 2em; 
+	}
+}
+
 #grbb-3 {
 	//background-position: 0 40px; 
 }
