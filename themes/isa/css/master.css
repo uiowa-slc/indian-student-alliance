@@ -4029,7 +4029,7 @@ aside .mod a {
   }
 }
 
-@media screen and (min-width: 473px) {
+@media screen and (max-width: 473px) {
   /* line 733, ../scss/layout/_site.scss */
   #grbb-3 h3 {
     font-size: 1.73rem;

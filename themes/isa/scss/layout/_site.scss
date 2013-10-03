@@ -729,7 +729,7 @@ aside .mod {
 
 #grbb-3 {
 	//background-position: 0 40px; 
-	@media screen and (min-width: 473px){
+	@media screen and (max-width: 473px){
 		h3{
 			font-size: 1.73rem; 
 		}
