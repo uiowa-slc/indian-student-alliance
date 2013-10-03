@@ -721,7 +721,7 @@ aside .mod {
 	background-position: 0 -40px;
 }
 
-#grbb.EList {
+#grbb.ListE {
 	@media screen and (min-width: 473px){
 		margin: 2em; 
 	}
@@ -729,6 +729,11 @@ aside .mod {
 
 #grbb-3 {
 	//background-position: 0 40px; 
+	@media screen and (min-width: 473px){
+		h3{
+			font-size: 1.73rem; 
+		}
+	}
 }
 
 //The little header in events
