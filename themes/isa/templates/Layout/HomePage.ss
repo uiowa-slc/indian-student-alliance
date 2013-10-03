@@ -3,8 +3,11 @@
 	<div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
 <% end_loop %>
 <% else %>
+<% loop HomePageHeroFeatures %>
 <div class = "hero" style="background-image: url({$Image.URL});">
+	 <a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
 	<!--<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>-->
+<% end_loop %>
 </div>
 
 
