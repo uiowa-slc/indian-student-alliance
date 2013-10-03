@@ -1,4 +1,4 @@
-<% if $LatestEvent %>
+<% if not $LatestEvent %>
 <% loop $LatestEvent %>
 
 <div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
@@ -29,11 +29,11 @@
 			                        <a href="$ExternalLink" target="_blank">Coming Up: $Title</a>
 			                        <% else %>
 			              	          <a href="$Link">Coming Up: $Title</a>
-			                        <% end_if %>
+			                    <% end_if %>
 			            </h3>
               	      <div class="hero-content"> $Content.Summary(50)</div>
 	              	      <% if $UseExternalLink %>
-	               	       <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
+	               	         <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
 	                      <% else %>
 	                	      <a href="$Link" class="hero-link">Read More</a>
 	                      <% end_if %>
