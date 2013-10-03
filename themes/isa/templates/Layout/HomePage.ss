@@ -47,7 +47,7 @@
               
               </div>
            </div>
-           <% else_if HomePageHeroFeatures.limit(2) %>
+           <% else HomePageHeroFeatures.limit(2) %>
             <div class="hero-article-wrapper">
 
                 <% loop HomePageHeroFeatures %>
