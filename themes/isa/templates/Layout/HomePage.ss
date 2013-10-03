@@ -1,11 +1,10 @@
 <% if not $LatestEvent %>
 <% loop $LatestEvent %>
-
-
+	<div class = "hero" style="background-image: url({$MainImage.SetWidth(1300).URL});">
 <% end_loop %>
 <% else %>
-<div class = "hero">
-	<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>
+<div class = "hero" style="background-image: url({$Image.URL});">
+	<!--<a href="$AssociatedPage.Link"><img src="$Image.URL" alt=""></a>-->
 </div>
 
 
