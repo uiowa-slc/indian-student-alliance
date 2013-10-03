@@ -691,9 +691,15 @@ aside .mod {
 //List element content modifier
 .ListE {
 	padding: .2em 1em .2em 1em;  
+	//margin: 8em 0em -1em 0em; 
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	@media $break-medium and (min-width: 473px){
+	padding: .2em 1em .2em 1em;  
 	margin: 8em 0em -1em 0em; 
 	background-color: rgba(0,0,0,0.8);
 	color: #fff;
+	}
 	@media screen and (min-width: $break-medium){
 		padding: .2em 1em .2em 1em;  
 		margin: 13em 0em -1em 0em; 
