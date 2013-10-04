@@ -12,13 +12,11 @@
 			<div class="col-1-4 hide-print">
 				<div class="colgroup">
 					<ul class="footer-nav">
-						<li><a href="#" target="_blank"><i class="icon-facebook"></i> Facebook</a></li>
-						<li><a href="#" target="_blank"><i class="icon-twitter"></i> Twitter</a></li>
+						<li><a href="https://www.facebook.com/pages/Iowa-Indian-Student-Alliance-ISA/166269351575" target="_blank"><i class="icon-facebook"></i> Facebook</a></li>
+						<li><a href="https://twitter.com/UIowaISA" target="_blank"><i class="icon-twitter"></i> Twitter</a></li>
 					</ul>
 					<ul class="footer-nav">
 						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Policies</a></li>
-						<li><a href="#">Annual Reports</a></li>
 					</ul>
 				</div>
 			</div>

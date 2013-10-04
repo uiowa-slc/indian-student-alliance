@@ -101,7 +101,11 @@ h5 + h6 {margin-top:0;}
 .eList p{
 	color: white; 	
 }
-#event-calendar-events { 	
+#event-calendar-events { 
+	@media screen and (min-width: 933px){
+		width: 90%;
+		margin: auto; 
+	}
 }
 .lede {
     @include rem($base-font * 1.2);
