@@ -17,33 +17,32 @@
                     <li><a href="/isa2/community">Learn about the Community</a></li>
                 </ul>
             </div>
-            <% if $UpcomingEvents %>
+            <% if $LatestEvent %>
             <div class="hero-article-wrapper">
 	            <div class="hero-article clearfix">
 	           
 	           
-	            	<% loop $UpcomingEvents.Limit(1) %>
+	            	<% with $LatestEvent %>
 	            
                         <h3 class="hero-title">
 		                        <% if $UseExternalLink %>
-			                        <a href="$ExternalLink" target="_blank">Coming Up! $Title</a>
+			                        <a href="$ExternalLink" target="_blank">Coming Up: $Title</a>
 			                        <% else %>
 			              	          <a href="$Link">Coming Up! $Title</a>
 			                    <% end_if %>
 
 			            </h3>
-
-              	      <div class="hero-content">
-                        <% with CurrentDate %>
+                    <% with CurrentDate %>
                       <p class="dates">$DateRange<% if StartTime %> $TimeRange<% end_if %></p>
-                    <% end_with %>$Content.Summary(50)</div>
+                    <% end_with %>
+              	      <div class="hero-content"> $Content.Summary(50)</div>
 	              	      <% if $UseExternalLink %>
 	               	         <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
 	                      <% else %>
 	                	      <a href="$Link" class="hero-link">Read More</a>
 	                      <% end_if %>
 	                      
-	            	<% end_loop %>           
+	            	<% end_with %>           
               
               </div>
            </div>
