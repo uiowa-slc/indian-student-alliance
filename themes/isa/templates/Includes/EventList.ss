@@ -9,9 +9,9 @@
 		 <!-- <p ><a href="$ICSLink"><% _t('ADD','Add this to Calendar') %></a></p> -->
 		  
 		  <% if Announcement %>
-		  $Content
+		  $Content.LimitWordCount(20)
 		  <% else %>
-		  <p><% with Event %>$Content.LimitWordCount(60) <% end_with %> <a href="$Link"><% _t('MORE','Read more&hellip;') %></a></p>
+		  <p><% with Event %>$Content.LimitWordCount(20) <% end_with %> <a href="$Link"><% _t('MORE','Read more&hellip;') %></a></p>
 		  <% end_if %>
 		  <% if OtherDates %>
 		  </div> 

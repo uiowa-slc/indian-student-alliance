@@ -25,3 +25,4 @@ userforms/
 widgets/
 *.scssc
 themes/isa/.sass-cache/
+*.scssc

@@ -1,8 +1,5 @@
 <% if $BackgroundImage %>
     	<div class="img-container $URLSegment" style="background-image: url($BackgroundImage.URL);">
-    		
-    		<h2 class = "title">$Title</h2>
-    		
     		<div class="img-fifty-top"></div>
     	</div>
     <% else %>
@@ -13,15 +10,10 @@
         <!-- $Breadcrumbs -->
         <section class="main-content">
 
-		<p class="feed"><a href="$Link(rss)"><% _t('SUBSCRIBE','Calendar RSS Feed') %></a></p>
-
-
+        <h1>$Title</h1>
 		$Content
         </section>
         <section class="sec-content hide-print">
-        	$CalendarWidget
-  			$MonthJumper
-  			<% include QuickNav %>
 
         </section>
     </section>

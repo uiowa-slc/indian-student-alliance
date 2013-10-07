@@ -22,15 +22,17 @@
 	            <div class="hero-article clearfix">
 	           
 	           
-	            	<% loop $LatestEvent %>
+	            	<% with $LatestEvent %>
 	            
                         <h3 class="hero-title">
 		                        <% if $UseExternalLink %>
 			                        <a href="$ExternalLink" target="_blank">Coming Up: $Title</a>
 			                        <% else %>
-			              	          <a href="$Link">Coming Up: $Title</a>
+			              	          <a href="$Link">Coming Up! $Title</a>
 			                    <% end_if %>
+
 			            </h3>
+                  <p>$DateRange <% if AllDay %><% _t('ALLDAY','All Day') %><% else %><% if StartTime %>$TimeRange<% end_if %><% end_if %></p>
               	      <div class="hero-content"> $Content.Summary(50)</div>
 	              	      <% if $UseExternalLink %>
 	               	         <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
@@ -38,7 +40,7 @@
 	                	      <a href="$Link" class="hero-link">Read More</a>
 	                      <% end_if %>
 	                      
-	            	<% end_loop %>           
+	            	<% end_with %>           
               
               </div>
            </div>

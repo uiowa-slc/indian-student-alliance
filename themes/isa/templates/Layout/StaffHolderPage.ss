@@ -3,7 +3,7 @@
     	<div class ="titleExec"> <h1> Executive Board </h1><h3> 2013-2014 </h3> </div>
     	</div>
     <% else %>
-    	<div class="img-container" style="/*background-image: url(assets/Uploads/rszcabexecphoto.jpg);*/">
+    	<div class="img-container">
     		
     		<div class="img-fifty-top"></div>
     	</div>
