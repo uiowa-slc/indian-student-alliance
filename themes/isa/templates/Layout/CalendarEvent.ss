@@ -6,9 +6,6 @@
     		<div class="img-fifty-top"></div>
     	</div>
     <% else %>
-    	<div class="img-container" style="background-image: url(assets/Uploads/rszcabexecphoto.jpg);">
-    		<div class="img-fifty-top"></div>
-    	</div>
 <% end_if %>
 <div style="position: relative;" class="news">
     <div class="img-fifty"></div>
