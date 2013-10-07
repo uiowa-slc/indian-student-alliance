@@ -28,6 +28,9 @@
         <section class="sec-content hide-print">
             <%-- include SideNav --%>
             <% include BlogSideBar %>
+            <p><a href="community/">View all community topics</a><br />
+                <a href="news/">View all news</a>
+            </p>
         </section>
     </section>
 </div>

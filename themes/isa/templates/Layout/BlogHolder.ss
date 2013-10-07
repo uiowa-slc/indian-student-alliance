@@ -41,6 +41,5 @@
         </section>
     </section>
 </div>
- <% include TopicsAndNews %> 
         
     
