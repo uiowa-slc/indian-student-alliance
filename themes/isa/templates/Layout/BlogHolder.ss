@@ -3,15 +3,13 @@
     		<div class="img-fifty-top"></div>
     	</div>
     <% else %>
-    	<div class="img-container" style="background-image: url(assets/Uploads/rszcabexecphoto.jpg);">
-    		<div class="img-fifty-top"></div>
-    	</div>
+
     <% end_if %>
 <div style="position: relative;" class="news">
     <div class="img-fifty"></div>
     <section class="container content-wrapper clearfix">
         <!-- $Breadcrumbs -->
-        <section class="main-content">
+        <section class="main-content <% if not $BackgroundImage %>no-bg<% end_if %>"  >
         <h1>$Title</h1>
 				<% if SelectedTag %>
 					<div class="selectedTag">

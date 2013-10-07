@@ -10,6 +10,7 @@
                               <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
                                <p>$Content.Summary(30)</p>
                                 <h5><a href="$Link">Read More</a></h5>
+                                 <hr />
                               </li>
                               <% end_loop %>
                             <% end_with %>
@@ -26,6 +27,7 @@
                         <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
                         <p>$Content.Summary(30)</p>
                         <h5><a href="$Link">Read More</a></h5>
+                        <hr />
                       </li>
                       <% end_loop %>
                       <li class = " viewTN"><a id = "viewAll" href="$Link">View all News</a></li>

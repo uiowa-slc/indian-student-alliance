@@ -92,7 +92,12 @@ body {
 		position: relative;
 		margin-top: -85px;
 		padding: 2em 1.5em 3em 1em;
+
 	}
+}
+
+.main-content.no-bg {
+	margin-top: 0;
 }
 
 .xmain-content, .sec-content {
@@ -179,6 +184,21 @@ body {
   h1, h2, h3, h4 {
     color: white;
   }
+
+  h4 {
+  	margin: 0.3em 0;
+  }
+
+  p{
+  	margin: 0.7em 0;
+  }
+
+  hr {
+  	border-top: 1px solid #555;
+  	border-bottom: 1px solid #303030;
+  	margin: 2em 0;
+  }
+
   .container {}
 }
 
@@ -607,6 +627,21 @@ aside .mod {
 		//background-size: auto;
 	}
 }
+
+.diwali {
+	@media screen and (min-width: $break-medium) {
+		background-position: 0px -150px; 
+		//background-size: auto;
+	}
+}
+
+.gathe {
+	@media screen and (min-width: $break-medium) {
+		background-position: 0px -110px; 
+		//background-size: auto;
+	}
+}
+
 
 .img-fifty {
 	visibility: hidden;
