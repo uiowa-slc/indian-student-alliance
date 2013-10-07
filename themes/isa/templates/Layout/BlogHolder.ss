@@ -11,6 +11,7 @@
         <!-- $Breadcrumbs -->
         <section class="main-content <% if not $BackgroundImage %>no-bg<% end_if %>"  >
         <h1>$Title</h1>
+        $Content
 				<% if SelectedTag %>
 					<div class="selectedTag">
 						<em>
