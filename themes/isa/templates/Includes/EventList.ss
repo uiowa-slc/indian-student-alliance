@@ -1,5 +1,5 @@
 <ul>
-<% loop Events %>
+<% loop RecentEvents %>
 
 	<% with Event %><li id = "$URLSegment"class="vevent clearfix" style = "background-image:url($MainImage.URL); background-size: 100%; background-repeat: no-repeat;"><% end_with %>
 		  <h3 class="summary ListH"><% if Announcement %>$Title<% else %><a class="url" href="$Link">$Event.Title</a><% end_if %></h3>
