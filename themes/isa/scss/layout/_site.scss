@@ -702,6 +702,21 @@ aside .mod {
 	}
 }
 
+.allEvents{
+		padding-bottom: 10px; 
+		margin-left: 0px; 
+	@media screen and (min-width: $break-small){
+		margin-left: 0px; 
+		padding-bottom: 10px;
+	}
+	@media screen and (min-width: $break-medium){
+		padding-left: 56px;
+	}
+	li {
+	font-size: 24px; 
+	}
+}
+
 .titleExec {
 	//margin-top:0px;
 	text-align: center;

@@ -9,7 +9,7 @@
 		  <% include EventList %>
 		</div>
 		<h2>All Annual Events</h2>
-		<ul>
+		<ul class = "allEvents">
 		<% loop Children %>
 			<li><a href="$Link">$Title</a></li>
 		<% end_loop %>
