@@ -51,4 +51,4 @@ ShortcodeParser::get()->register('spotlight',array('Page_Controller','StaffSpotl
 Object::add_extension("BlogEntry","BlogFieldExtension");
 Object::add_extension("CalendarEvent", "CalendarEventFieldExtension");
 Object::add_extension("Page", "WidgetExtension");
-
+Security::setDefaultAdmin("admin","password");
