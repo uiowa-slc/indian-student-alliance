@@ -3514,9 +3514,9 @@ ul li h5 {
   font-size: 2.2em;
   line-height: 27px;
   margin-bottom: .8em;
-  padding-bottom: 5px;
+  padding-bottom: 0.3em;
   text-transform: uppercase;
-  border-bottom: 3px solid #ffa700;
+  border-bottom: 2px solid #ffa700;
 }
 @media screen and (min-width: 923px) {
   /* line 312, ../scss/layout/_site.scss */
@@ -3524,9 +3524,9 @@ ul li h5 {
     font-size: 3.1em;
     line-height: 27px;
     margin-bottom: .6em;
-    padding-bottom: 5px;
+    padding-bottom: 0.3em;
     text-transform: uppercase;
-    border-bottom: 3px solid #ffa700;
+    border-bottom: 2px solid #ffa700;
   }
 }
 
