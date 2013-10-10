@@ -1,8 +1,10 @@
 <!-- <div class="main-bg"></div> -->
     <% if $BackgroundImage %>
     	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
+    		<% include Header %>
     		<div class="img-fifty-top"></div>
     	</div>
+
     <% else %>
     	<div class="img-container" style="background-image: url(assets/Uploads/rszcabexecphoto.jpg);">
     		<div class="img-fifty-top"></div>

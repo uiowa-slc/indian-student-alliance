@@ -1,10 +1,17 @@
+<% if $BackgroundImage %>
+    	<div class="img-container $URLSegment" style="background-image: url($BackgroundImage.URL);">
+    		<% include Header %>
+    		<div class="img-fifty-top"></div>
+    	</div>
+    <% else %>
+<% end_if %>
 <div style="position: relative;" class="news">
-    <section class="container content-wrapper clearfix">
+    <section class="container content-wrapper calendar clearfix">
         <!-- $Breadcrumbs -->
-        <section class="calendar-main-content">
+        <section class="calendar-main-content main-content">
 		$Content
 		<% if Events %>
-		<h2>Upcoming Scheduled Events</h2>
+		<h1>Upcoming Scheduled Events</h1>
 		<div id="event-calendar-events">
 		  <% include EventList %>
 		</div>

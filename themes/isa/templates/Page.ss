@@ -24,8 +24,9 @@
 <body>
 	<!-- hiding division bar until deprecation stuff sorted out -->
     <% include DivisionBar %>
-
-    <% include Header %>
+    	<% if not $BackgroundImage %>
+    		<% include Header %>
+    	<% end_if %>
     $Layout
 
     <% include Footer %>

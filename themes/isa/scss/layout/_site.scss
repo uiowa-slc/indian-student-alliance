@@ -72,6 +72,10 @@ body {
 		margin-right: auto;
 	}
 }
+
+.content-wrapper.calendar{
+	border: none;
+}
 .content-wrapper.staff {
 	//background-color: #fff;
 }
@@ -129,7 +133,7 @@ body {
 		min-height: 530px;
 		width: 100%;
 		position: relative;
-		padding: 2em 0em 3em 0em;
+		/*padding: 2em 0em 3em 0em;*/
 	}
 }
 
@@ -196,7 +200,12 @@ body {
   hr {
   	border-top: 1px solid #555;
   	border-bottom: 1px solid #303030;
-  	margin: 2em 0;
+  	margin: 1.3em 0;
+  }
+
+  .read-more {
+  	display: block;
+  	margin: 1.2em 0;
   }
 
   .container {}
@@ -249,18 +258,19 @@ body {
 
 /* homepage specific nav colors */
 
-.HomePage.header {
+.HomePage.header, .header.bg-image {
 	background: rgba(22, 22, 22, 0.64) url(../images/nav_green.png) repeat-x left bottom;
 }
-.HomePage .logo {
+.HomePage .logo, .header.bg-image .logo {
 	color: white;
 	text-shadow: none;
+}
+
+.HomePage .logo{
 	margin: 0;
 }
 
-
-
-.HomePage .nav-main a {
+.HomePage .nav-main a, .header.bg-image .nav-main a {
 	@media screen and (min-width: $break-medium) {
 		color: white;
 		text-shadow: none;
@@ -705,7 +715,7 @@ aside .mod {
 .titleExec {
 	//margin-top:0px;
 	text-align: center;
-	padding-top: 2.4em;
+	padding-top: 0;
 	text-shadow: 4px 4px #000; 
 	h1{
 		font-size: 3.1em; 
@@ -717,7 +727,7 @@ aside .mod {
 	
 	@media screen and (min-width: $break-medium){
 		text-align: center;
-		padding-top: 5.5em;
+		padding-top: 0;
 		text-shadow: 4px 4px #000;  
 		//font-size: 4.2em;
 		h1{

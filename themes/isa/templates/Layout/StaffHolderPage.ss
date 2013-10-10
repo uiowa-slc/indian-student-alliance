@@ -1,6 +1,7 @@
 <% if $BackgroundImage %>
     	<div class="img-container" style="background-image: url($BackgroundImage.URL);">
-    	<div class ="titleExec"> <h1> Executive Board </h1><h3> 2013-2014 </h3> </div>
+    	<% include Header %>
+      <div class ="titleExec"> <h1> Executive Board </h1><h3> 2013-2014 </h3> </div>
     	</div>
     <% else %>
     	<div class="img-container">
