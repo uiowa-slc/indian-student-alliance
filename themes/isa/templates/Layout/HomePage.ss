@@ -30,11 +30,10 @@
 			                        <% else %>
 			              	          <a href="$Link">Coming Up! $Title</a>
 			                    <% end_if %>
-
-			            </h3>
-                    <% with CurrentDate %>
-                      <p class="dates">$DateRange<% if StartTime %> $TimeRange<% end_if %></p>
-                    <% end_with %>
+			                   </h3>
+                          <p><% loop DateTimes.Limit('4') %>
+                            $DateRange<% if StartTime %> $TimeRange<% end_if %>
+                          <% end_loop %></p>
               	      <div class="hero-content"> $Content.Summary(50)</div>
 	              	      <% if $UseExternalLink %>
 	               	         <a href="$ExternalLink" target="_blank" class="hero-link">Read More</a>
@@ -46,10 +45,10 @@
               
               </div>
            </div>
-           <% else %>
+           <% else_if $HomePageHeroFeatures %>
             <div class="hero-article-wrapper">
 
-                <% loop HomePageHeroFeatures %>
+                <% loop $HomePageHeroFeatures %>
 	                <div class="hero-article clearfix">
 	                    <h3 class="hero-title"><a href="$AssociatedPage.Link">$Title</a></h3>
 	                    <div class="hero-content">$Content</div>

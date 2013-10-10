@@ -7,7 +7,7 @@
 <% end_if %>
 <div style="position: relative;" class="news">
     <div class="img-fifty"></div>
-    <section class="container Bcontent-wrapper clearfix">
+    <section class="container content-wrapper clearfix">
         <!-- $Breadcrumbs -->
         <section class="main-content">
 
