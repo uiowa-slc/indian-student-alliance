@@ -1,10 +1,10 @@
-      <section class="topics-news" padding hide-print">
+      <section class="topics-news padding hide-print">
             <div class="container ">
                 <div class="colgroup">
                     <div class="col-1-2 TNmod mod-news">
                         <h3 class="mod-title ">Community Topics</h3>
                         <ul>
-                          <% with Page("community") %>
+                          <% with Page(community) %>
                             <% loop $Entries('4', 'community') %>
                               <li><h4><a href="$Link">$MenuTitle</a></h4>
                               <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
@@ -19,9 +19,10 @@
                     </div>
                     <div class="col-1-2 TNmod mod-news">
                       <% with Page(news) %>
-              <% if $Entries %>
+					  <% if $Entries %>
                     <h3 class="mod-title">Latest News</h3>
                     <ul>
+          
                       <% loop $Entries('3') %>
                       <li><h4><a href="$Link">$MenuTitle</a></h4>
                         <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
