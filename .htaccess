@@ -24,7 +24,6 @@ php_value display_errors On
 <IfModule mod_rewrite.c>
 	SetEnv HTTP_MOD_REWRITE On
 	RewriteEngine On
-	RewriteBase '/isa2'
 	RewriteRule ^vendor(/|$) - [F,L,NC]
 	RewriteRule silverstripe-cache(/|$) - [F,L,NC]
 	RewriteRule composer\.(json|lock) - [F,L,NC]
