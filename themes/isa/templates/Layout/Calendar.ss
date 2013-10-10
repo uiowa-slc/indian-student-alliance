@@ -11,7 +11,7 @@
         <section class="calendar-main-content main-content">
 		$Content
 		<% if Events %>
-		<h1>Upcoming Scheduled Events</h1>
+		<h2>Upcoming Scheduled Events</h2>
 		<div id="event-calendar-events">
 		  <% include EventList %>
 		</div>
