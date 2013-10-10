@@ -4150,6 +4150,11 @@ aside .mod a {
   color: white;
 }
 
+/* line 839, ../scss/layout/_site.scss */
+.media iframe {
+  max-width: 100% !important;
+}
+
 /* Print
 -------------------------------------------*/
 /* css/scss/imports/print.scss
