@@ -144,12 +144,7 @@ body {
 }
 
 .calendar-main-content{
-	h2 { 
-		padding-left: 1em; 
-	}
-	.feed {
-		padding-left: 2.2em; 
-	}
+
 }  
 
 .news .main-content {
@@ -689,7 +684,7 @@ aside .mod {
 		padding-bottom: 10px;
 	}
 	@media screen and (min-width: $break-medium){
-		padding-left: 56px;
+	
 	}
 	li {
 	font-size: 24px; 
