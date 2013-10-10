@@ -617,48 +617,17 @@ aside .mod {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 200px;
+	min-height: 200px;
 	position: relative;
 	xpadding-top: 25%;
 	@media screen and (min-width: $break-medium) {
-		height: 400px;
+		height: 440px;
 		padding-top: 0;
 		//background-size: auto;
 	}
 	
 
 }
-
-.grbb {
-	@media screen and (min-width: $break-medium) {
-		height: 400px;
-		padding-top: 0;
-		background-position: 0px -118px; 
-		//background-size: auto;
-	}
-}
-
-.diwali {
-	@media screen and (min-width: $break-medium) {
-		background-position: 0px -150px; 
-		//background-size: auto;
-	}
-}
-
-.gathe {
-	@media screen and (min-width: $break-medium) {
-		background-position: 0px -110px; 
-		//background-size: auto;
-	}
-}
-
-.nachte {
-	@media screen and (min-width: $break-medium) {
-		background-position: 0px -140px; 
-		//background-size: auto;
-	}
-}
-
 
 
 .img-fifty {

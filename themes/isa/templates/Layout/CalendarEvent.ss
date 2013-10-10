@@ -1,6 +1,7 @@
 <% if $BackgroundImage %>
     	<div class="img-container $URLSegment" style="background-image: url($BackgroundImage.URL);">
     		<div class="img-fifty-top"></div>
+        <% include Header %>
     	</div>
     <% else %>
 <% end_if %>
