@@ -12,9 +12,9 @@
 	        <div class="hero-text">
                 <h2 class="blocktext">Welcome to the Indian Student Alliance.</h2>
                 <ul>
-                    <li><a href="/isa2/about/">Our Events</a></li>
-                    <li><a href="/isa2/board/">Meet Us</a></li>
-                    <li><a href="/isa2/community">Learn about the Community</a></li>
+                    <li><a href="about/">Our Events</a></li>
+                    <li><a href="board/">Meet Us</a></li>
+                    <li><a href="community">Learn about the Community</a></li>
                 </ul>
             </div>
             <% if $LatestEvent %>
