@@ -3913,12 +3913,19 @@ aside .mod a {
   }
 }
 
-/* line 634, ../scss/layout/_site.scss */
+@media screen and (min-width: 768px) {
+  /* line 634, ../scss/layout/_site.scss */
+  .gathe {
+    background-position: 0px 8.5%;
+  }
+}
+
+/* line 642, ../scss/layout/_site.scss */
 .img-fifty {
   visibility: hidden;
 }
 @media screen and (min-width: 768px) {
-  /* line 634, ../scss/layout/_site.scss */
+  /* line 642, ../scss/layout/_site.scss */
   .img-fifty {
     position: absolute;
     left: 0;
@@ -3929,12 +3936,12 @@ aside .mod a {
   }
 }
 
-/* line 647, ../scss/layout/_site.scss */
+/* line 655, ../scss/layout/_site.scss */
 .img-fifty-top {
   visibility: hidden;
 }
 @media screen and (min-width: 768px) {
-  /* line 647, ../scss/layout/_site.scss */
+  /* line 655, ../scss/layout/_site.scss */
   .img-fifty-top {
     background: #F3F3F3 repeat-y left top;
     background-size: 100%;
@@ -3947,13 +3954,13 @@ aside .mod a {
   }
 }
 
-/* line 661, ../scss/layout/_site.scss */
+/* line 669, ../scss/layout/_site.scss */
 .news .img-fifty {
   top: 0;
 }
 
 /* event list CSS*/
-/* line 666, ../scss/layout/_site.scss */
+/* line 674, ../scss/layout/_site.scss */
 .title {
   margin-top: 0px;
   text-align: center;
@@ -3964,7 +3971,7 @@ aside .mod a {
   font-size: 4.2em;
 }
 @media screen and (min-width: 768px) {
-  /* line 666, ../scss/layout/_site.scss */
+  /* line 674, ../scss/layout/_site.scss */
   .title {
     margin-top: 0px;
     text-align: center;
@@ -3976,66 +3983,66 @@ aside .mod a {
   }
 }
 
-/* line 685, ../scss/layout/_site.scss */
+/* line 693, ../scss/layout/_site.scss */
 .allEvents {
   padding-bottom: 10px;
   margin-left: 0px;
 }
 @media screen and (min-width: 480px) {
-  /* line 685, ../scss/layout/_site.scss */
+  /* line 693, ../scss/layout/_site.scss */
   .allEvents {
     margin-left: 0px;
     padding-bottom: 10px;
   }
 }
-/* line 695, ../scss/layout/_site.scss */
+/* line 703, ../scss/layout/_site.scss */
 .allEvents li {
   font-size: 24px;
 }
 
-/* line 700, ../scss/layout/_site.scss */
+/* line 708, ../scss/layout/_site.scss */
 .titleExec {
   text-align: center;
   padding-top: 0;
   text-shadow: 4px 4px #000;
 }
-/* line 705, ../scss/layout/_site.scss */
+/* line 713, ../scss/layout/_site.scss */
 .titleExec h1 {
   font-size: 3.1em;
 }
-/* line 708, ../scss/layout/_site.scss */
+/* line 716, ../scss/layout/_site.scss */
 .titleExec h3 {
   font-size: 1.2em;
 }
 @media screen and (min-width: 768px) {
-  /* line 700, ../scss/layout/_site.scss */
+  /* line 708, ../scss/layout/_site.scss */
   .titleExec {
     text-align: center;
     padding-top: 0;
     text-shadow: 4px 4px #000;
   }
-  /* line 718, ../scss/layout/_site.scss */
+  /* line 726, ../scss/layout/_site.scss */
   .titleExec h1 {
     font-size: 6.1em;
   }
-  /* line 721, ../scss/layout/_site.scss */
+  /* line 729, ../scss/layout/_site.scss */
   .titleExec h3 {
     font-size: 2.2em;
   }
 }
-/* line 725, ../scss/layout/_site.scss */
+/* line 733, ../scss/layout/_site.scss */
 .titleExec h3, .titleExec h2, .titleExec h1 {
   color: white;
 }
 
-/* line 732, ../scss/layout/_site.scss */
+/* line 740, ../scss/layout/_site.scss */
 .ListE {
   padding: .2em 1em .2em 1em;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
 @media screen and (min-width: 473px) {
-  /* line 732, ../scss/layout/_site.scss */
+  /* line 740, ../scss/layout/_site.scss */
   .ListE {
     padding: .2em 1em .2em 1em;
     margin: 8em 0em -1em 0em;
@@ -4044,7 +4051,7 @@ aside .mod a {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 732, ../scss/layout/_site.scss */
+  /* line 740, ../scss/layout/_site.scss */
   .ListE {
     padding: .2em 1em .2em 1em;
     margin: 13em 0em -1em 0em;
@@ -4053,60 +4060,60 @@ aside .mod a {
   }
 }
 
-/* line 751, ../scss/layout/_site.scss */
+/* line 759, ../scss/layout/_site.scss */
 .ListH {
   padding-left: .41em;
   margin-top: .5em;
 }
-/* line 752, ../scss/layout/_site.scss */
+/* line 760, ../scss/layout/_site.scss */
 .ListH a {
   color: #fff;
   font-size: 2.5em;
 }
 @media screen and (min-width: 768px) {
-  /* line 752, ../scss/layout/_site.scss */
+  /* line 760, ../scss/layout/_site.scss */
   .ListH a {
     font-size: 3.73333em;
   }
 }
 
 /* Modifying the Images*/
-/* line 765, ../scss/layout/_site.scss */
+/* line 773, ../scss/layout/_site.scss */
 #grbb {
   background-position: 0 -40px;
 }
 
 @media screen and (min-width: 473px) {
-  /* line 769, ../scss/layout/_site.scss */
+  /* line 777, ../scss/layout/_site.scss */
   #grbb.ListE {
     margin: 2em;
   }
 }
 
-/* line 776, ../scss/layout/_site.scss */
+/* line 784, ../scss/layout/_site.scss */
 .eventsHead {
   margin-top: -1.7em;
   margin-bottom: 2.1em;
 }
 
-/* line 781, ../scss/layout/_site.scss */
+/* line 789, ../scss/layout/_site.scss */
 .event-calendar-controls {
   padding-bottom: 2em;
 }
 
-/* line 785, ../scss/layout/_site.scss */
+/* line 793, ../scss/layout/_site.scss */
 .innerBackground {
   background: rgba(0, 0, 0, 0.72);
   padding: 10px 10px 17px 10px;
   width: 100%;
 }
 
-/* line 791, ../scss/layout/_site.scss */
+/* line 799, ../scss/layout/_site.scss */
 .sInnerBground {
   background: rgba(0, 0, 0, 0.72);
 }
 
-/* line 795, ../scss/layout/_site.scss */
+/* line 803, ../scss/layout/_site.scss */
 .eList {
   padding: 10px 10px 17px 10px;
   width: 100%;
@@ -4114,42 +4121,42 @@ aside .mod a {
   background: rgba(0, 0, 0, 0.72);
 }
 
-/* line 802, ../scss/layout/_site.scss */
+/* line 810, ../scss/layout/_site.scss */
 .event {
   padding: 10px 10px 17px 20px;
   width: 100%;
   display: block;
 }
 
-/* line 809, ../scss/layout/_site.scss */
+/* line 817, ../scss/layout/_site.scss */
 .vevent {
   background: none;
 }
-/* line 810, ../scss/layout/_site.scss */
+/* line 818, ../scss/layout/_site.scss */
 .vevent h1 {
   color: #ffce39;
   padding-bottom: 0px;
 }
-/* line 814, ../scss/layout/_site.scss */
+/* line 822, ../scss/layout/_site.scss */
 .vevent h2 {
   color: white;
 }
 
-/* line 820, ../scss/layout/_site.scss */
+/* line 828, ../scss/layout/_site.scss */
 .mevent {
   color: #b1b1b1;
 }
-/* line 822, ../scss/layout/_site.scss */
+/* line 830, ../scss/layout/_site.scss */
 .mevent h1 {
   color: #ffce39;
   padding-bottom: 0px;
 }
-/* line 826, ../scss/layout/_site.scss */
+/* line 834, ../scss/layout/_site.scss */
 .mevent h2 {
   color: white;
 }
 
-/* line 833, ../scss/layout/_site.scss */
+/* line 841, ../scss/layout/_site.scss */
 .media iframe {
   max-width: 100% !important;
 }

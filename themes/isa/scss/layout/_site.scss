@@ -631,6 +631,14 @@ aside .mod {
 	}
 }
 
+.gathe{
+
+	@media screen and (min-width: $break-medium) {
+		background-position: 0px 8.5%; 
+	}
+	
+}
+
 .img-fifty {
 	visibility: hidden;
 	@media screen and (min-width: $break-medium) {
