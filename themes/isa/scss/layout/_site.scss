@@ -751,7 +751,12 @@ aside .mod {
 .ListH{
 	a{
 		color: #fff;
+		font-size: 2.5em; 
+		@media screen and (min-width: $break-medium){
 		font-size: 3.73333em; 
+
+		}
+
 	}
 	padding-left: .41em;
 	margin-top: .5em;
@@ -767,23 +772,6 @@ aside .mod {
 	}
 }
 
-#grbb-3 {
-	//background-position: 0 40px; 
-	@media (min-width: 0px) and (max-width: 543px){
-		h3{
-			font-size: 1.23em; 
-		}
-	}
-}
-
-#grbb-4 {
-	//background-position: 0 40px; 
-	@media (min-width: 0px) and (max-width: 500px){
-		h3{
-			font-size: 1.4em; 
-		}
-	}
-}
 //The little header in events
 .eventsHead{
 	margin-top: -1.7em; 

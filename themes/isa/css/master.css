@@ -4061,60 +4061,52 @@ aside .mod a {
 /* line 752, ../scss/layout/_site.scss */
 .ListH a {
   color: #fff;
-  font-size: 3.73333em;
+  font-size: 2.5em;
+}
+@media screen and (min-width: 768px) {
+  /* line 752, ../scss/layout/_site.scss */
+  .ListH a {
+    font-size: 3.73333em;
+  }
 }
 
 /* Modifying the Images*/
-/* line 760, ../scss/layout/_site.scss */
+/* line 765, ../scss/layout/_site.scss */
 #grbb {
   background-position: 0 -40px;
 }
 
 @media screen and (min-width: 473px) {
-  /* line 764, ../scss/layout/_site.scss */
+  /* line 769, ../scss/layout/_site.scss */
   #grbb.ListE {
     margin: 2em;
   }
 }
 
-@media (min-width: 0px) and (max-width: 543px) {
-  /* line 773, ../scss/layout/_site.scss */
-  #grbb-3 h3 {
-    font-size: 1.23em;
-  }
-}
-
-@media (min-width: 0px) and (max-width: 500px) {
-  /* line 782, ../scss/layout/_site.scss */
-  #grbb-4 h3 {
-    font-size: 1.4em;
-  }
-}
-
-/* line 788, ../scss/layout/_site.scss */
+/* line 776, ../scss/layout/_site.scss */
 .eventsHead {
   margin-top: -1.7em;
   margin-bottom: 2.1em;
 }
 
-/* line 793, ../scss/layout/_site.scss */
+/* line 781, ../scss/layout/_site.scss */
 .event-calendar-controls {
   padding-bottom: 2em;
 }
 
-/* line 797, ../scss/layout/_site.scss */
+/* line 785, ../scss/layout/_site.scss */
 .innerBackground {
   background: rgba(0, 0, 0, 0.72);
   padding: 10px 10px 17px 10px;
   width: 100%;
 }
 
-/* line 803, ../scss/layout/_site.scss */
+/* line 791, ../scss/layout/_site.scss */
 .sInnerBground {
   background: rgba(0, 0, 0, 0.72);
 }
 
-/* line 807, ../scss/layout/_site.scss */
+/* line 795, ../scss/layout/_site.scss */
 .eList {
   padding: 10px 10px 17px 10px;
   width: 100%;
@@ -4122,42 +4114,42 @@ aside .mod a {
   background: rgba(0, 0, 0, 0.72);
 }
 
-/* line 814, ../scss/layout/_site.scss */
+/* line 802, ../scss/layout/_site.scss */
 .event {
   padding: 10px 10px 17px 20px;
   width: 100%;
   display: block;
 }
 
-/* line 821, ../scss/layout/_site.scss */
+/* line 809, ../scss/layout/_site.scss */
 .vevent {
   background: none;
 }
-/* line 822, ../scss/layout/_site.scss */
+/* line 810, ../scss/layout/_site.scss */
 .vevent h1 {
   color: #ffce39;
   padding-bottom: 0px;
 }
-/* line 826, ../scss/layout/_site.scss */
+/* line 814, ../scss/layout/_site.scss */
 .vevent h2 {
   color: white;
 }
 
-/* line 832, ../scss/layout/_site.scss */
+/* line 820, ../scss/layout/_site.scss */
 .mevent {
   color: #b1b1b1;
 }
-/* line 834, ../scss/layout/_site.scss */
+/* line 822, ../scss/layout/_site.scss */
 .mevent h1 {
   color: #ffce39;
   padding-bottom: 0px;
 }
-/* line 838, ../scss/layout/_site.scss */
+/* line 826, ../scss/layout/_site.scss */
 .mevent h2 {
   color: white;
 }
 
-/* line 845, ../scss/layout/_site.scss */
+/* line 833, ../scss/layout/_site.scss */
 .media iframe {
   max-width: 100% !important;
 }
