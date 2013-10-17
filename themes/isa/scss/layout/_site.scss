@@ -611,7 +611,6 @@ aside .mod {
 	background-color: #000;
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: cover;
 	/*min-height: 200px;*/
 	position: relative;
 	xpadding-top: 25%;
@@ -623,25 +622,6 @@ aside .mod {
 
 
 
-}
-
-.img-container.events {
-		@media screen and (min-width: $break-medium) {
-		background-position: 0px -50px; 
-	}
-}
-.nachte {
-	@media screen and (min-width: $break-medium) {
-		background-position: 0px 20%; 
-	}
-}
-
-.gathe{
-
-	@media screen and (min-width: $break-medium) {
-		background-position: 0px 8.5%; 
-	}
-	
 }
 
 .img-fifty {
