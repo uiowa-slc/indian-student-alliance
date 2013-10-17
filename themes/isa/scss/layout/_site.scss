@@ -214,22 +214,21 @@ body {
 	
 }
 
-/* Header
-========================================================================== */
+/* Header */
 .header {
 	background: rgba(255,255,255,0) url(../images/nav_green.png) repeat-x left bottom;
 	position: relative;
 }
+
 .logo {
-	color: #333;
-	text-shadow: 0 1px 0 white;
+	color: #222;
 	display: block;
 	font-family: "proxima-nova-condensed",sans-serif;
 	@include rem(29);
 	font-weight: 600;
 	letter-spacing: 1px;
 	line-height: 1.1;
-	margin: 0.3em 0 0 0;
+	margin: 0.5em 0 .2em 0;
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -242,7 +241,7 @@ body {
 	}
 	@media screen and (min-width: $break-xlarge) {
 		@include rem(46);
-		
+		margin: 0.5em 0 .2em 0;
 	}
 }
 .rwd-break {
@@ -255,6 +254,7 @@ body {
 
 .HomePage.header, .header.bg-image {
 	background: rgba(22, 22, 22, 0.64) url(../images/nav_green.png) repeat-x left bottom;
+	line-height: 0;
 }
 .HomePage .logo, .header.bg-image .logo {
 	color: white;
@@ -262,7 +262,7 @@ body {
 }
 
 .HomePage .logo{
-	margin: 0;
+	line-height: 1;
 }
 
 .HomePage .nav-main a, .header.bg-image .nav-main a {
