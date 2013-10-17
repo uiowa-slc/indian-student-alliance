@@ -620,11 +620,16 @@ aside .mod {
 		padding-top: 0;
 		//background-size: auto;
 	}
-	
+
+
 
 }
 
-
+.img-container.events {
+		@media screen and (min-width: $break-medium) {
+		background-position: 0px -50px; 
+	}
+}
 .nachte {
 	@media screen and (min-width: $break-medium) {
 		background-position: 0px 20%; 
