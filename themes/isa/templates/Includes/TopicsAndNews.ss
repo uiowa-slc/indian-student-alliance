@@ -5,12 +5,8 @@
                         <h3 class="mod-title ">Community Topics</h3>
                         <ul>
                           <% with Page(community) %>
-                            <% loop $Entries('4', 'community') %>
+                            <% loop $Entries('8', 'community') %>
                               <li><h4><a href="$Link">$MenuTitle</a></h4>
-                              <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
-                               <p>$Content.Summary(30)</p>
-                                <h5><a href="$Link" class="read-more">Read More</a></h5>
-                                 <hr />
                               </li>
                               <% end_loop %>
                             <% end_with %>
@@ -18,38 +14,12 @@
                         </ul>
                     </div>
                     <div class="col-1-2 TNmod mod-news">
-                      <% with Page(news) %>
-					  <% if $Entries %>
-                    <h3 class="mod-title">Latest News</h3>
-                    <ul>
-          
-                      <% loop $Entries('3') %>
-                      <li><h4><a href="$Link">$MenuTitle</a></h4>
-                        <% if $Date %><small>$Date.Format('M. j, Y')</small><% end_if %>
-                        <p>$Content.Summary(30)</p>
-                        <h5><a href="$Link" class="read-more">Read More</a></h5>
-                        <hr />
-                      </li>
-                      <% end_loop %>
-                      <li class = " viewTN"><a id = "viewAll" href="$Link">View all News</a></li>
-
-                    </ul>
-              <% end_if %>
-            <% end_with %>
+   
+                    <h3 class="mod-title">ISA on Facebook</h3>
+                      <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FIowa-Indian-Student-Alliance-ISA%2F166269351575&amp;width=400&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=127918570561161" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:395px;" allowTransparency="true"></iframe>
+     
                     </div>
-                    <div class="col-1-4 mod">
-                      <% with Page(news) %>
-              <% if $Entries('','event') %>
-                    <h3 class="mod-title">Upcoming Events</h3>
-                    <ul class="unstyled">
-                      <% loop $Entries('3','event') %>
-                      <li><a href="$Link">$MenuTitle</a></li>
-                      <% end_loop %>
-                      <li><a href="{$Link}tag/event">View all Events</a></li>
-                    </ul>
-              <% end_if %>
-            <% end_with %>
-                    </div>
+                    
                 </div>
             </div>
         </section>
