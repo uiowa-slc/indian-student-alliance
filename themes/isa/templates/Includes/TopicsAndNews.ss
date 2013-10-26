@@ -1,4 +1,4 @@
-      <section class="topics-news padding hide-print" style="border-top: 1px solid #eee">
+      <section class="topics-news hide-print" style="border-top: 1px solid #eee">
             <div class="container ">
                 <div class="colgroup">
                     <div class="col-1-3 TNmod mod-news">
