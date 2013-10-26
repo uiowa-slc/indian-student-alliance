@@ -1,7 +1,7 @@
       <section class="topics-news padding hide-print" style="border-top: 1px solid #eee">
             <div class="container ">
                 <div class="colgroup">
-                    <div class="col-1-2 TNmod mod-news">
+                    <div class="col-1-3 TNmod mod-news">
                         <h3 class="mod-title ">Community Topics</h3>
                         <ul>
                           <% with Page(community) %>
@@ -13,7 +13,7 @@
                             <li class = " viewTN"><a id = "viewAll" href="$Link">View all Topics</a></li>
                         </ul>
                     </div>
-                    <div class="col-1-2 TNmod mod-news" >
+                    <div class="col-2-3 TNmod mod-news" >
    
                     <h3 class="mod-title">ISA on Facebook</h3>
                    <div style="overflow: hidden;">
