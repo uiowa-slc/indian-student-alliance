@@ -15,6 +15,11 @@
 		<div id="event-calendar-events">
 		  <% include EventList %>
 		</div>
+
+		<% else %>
+		  <p><% _t('NOEVENTS','There are no scheduled upcoming events. Check back soon!') %>.</p>
+		<% end_if %>
+
 		<hr />
 		<h2>All Annual Events</h2>
 		<ul class = "allEvents">
@@ -22,9 +27,6 @@
 			<li><a href="$Link">$Title</a></li>
 		<% end_loop %>
 		</ul>
-		<% else %>
-		  <p><% _t('NOEVENTS','There are no events') %>.</p>
-		<% end_if %>
         </section>
     </section>
 </div>
