@@ -17,7 +17,7 @@
 		</div>
 
 		<% else %>
-		  <p><% _t('NOEVENTS','There are no scheduled upcoming events. Check back soon!') %>.</p>
+		  <p><% _t('NOEVENTS','There are no scheduled upcoming events. Check back soon!') %></p>
 		<% end_if %>
 
 		<hr />
