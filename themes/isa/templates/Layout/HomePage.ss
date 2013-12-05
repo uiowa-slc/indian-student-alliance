@@ -12,7 +12,7 @@
 	        <div class="hero-text">
                 <h2 class="blocktext">Welcome to the Indian Student Alliance.</h2>
                 <ul>
-                    <li><a href="about/">Our Events</a></li>
+                    <li><a href="events/">Our Events</a></li>
                     <li><a href="board/">Meet Us</a></li>
                     <li><a href="community">Learn about the Community</a></li>
                 </ul>
