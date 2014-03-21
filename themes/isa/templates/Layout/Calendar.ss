@@ -15,9 +15,6 @@
 		<div id="event-calendar-events">
 		  <% include EventList %>
 		</div>
-
-		<% else %>
-		  <p><% _t('NOEVENTS','There are no scheduled upcoming events. Check back soon!') %></p>
 		<% end_if %>
 
 		<hr />
