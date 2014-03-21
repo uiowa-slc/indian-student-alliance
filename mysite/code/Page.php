@@ -50,7 +50,12 @@ class Page_Controller extends ContentController {
 		Requirements::themedCSS('form');
 
     Requirements::block('division-bar/css/_division-bar.css');
+    Requirements::block('division-project/js/plugins-ck.js');
     Requirements::block('division-project/js/main.js');
+    Requirements::block('framework/thirdparty/jquery/jquery.js');
+    Requirements::block('event_calendar/javascript/calendar.js');
+    
+
 	}
 	
 	public function Events(){
