@@ -15,9 +15,12 @@
 		<div id="event-calendar-events">
 		  <% include EventList %>
 		</div>
+		<hr />
+		<% else %>
+		  
 		<% end_if %>
 
-		<hr />
+		
 		<h2>All Annual Events</h2>
 		<ul class = "allEvents">
 		<% loop Children %>
