@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "848de789c66ac609e7b2862c3500dd708afb72ce"
+                "reference": "c74a930ef0cb2e36c9f0c119eb920b82513c2e46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/848de789c66ac609e7b2862c3500dd708afb72ce",
-                "reference": "848de789c66ac609e7b2862c3500dd708afb72ce",
+                "url": "https://api.github.com/repos/composer/installers/zipball/c74a930ef0cb2e36c9f0c119eb920b82513c2e46",
+                "reference": "c74a930ef0cb2e36c9f0c119eb920b82513c2e46",
                 "shasum": ""
             },
             "replace": {
@@ -129,7 +129,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-03-04 04:29:18"
+            "time": "2014-03-21 15:33:48"
         },
         {
             "name": "md/division-bar",
@@ -137,12 +137,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar.git",
-                "reference": "ddc77ff12954b9701a7be8aeeebc1ec13a71be3c"
+                "reference": "83b85fca823dc970d0c5e2b6257927ad6a4ce3a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/ddc77ff12954b9701a7be8aeeebc1ec13a71be3c",
-                "reference": "ddc77ff12954b9701a7be8aeeebc1ec13a71be3c",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-bar/zipball/83b85fca823dc970d0c5e2b6257927ad6a4ce3a8",
+                "reference": "83b85fca823dc970d0c5e2b6257927ad6a4ce3a8",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-bar/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-bar/issues"
             },
-            "time": "2014-03-21 14:26:08"
+            "time": "2014-03-21 22:13:45"
         },
         {
             "name": "md/division-project",
@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "5714c5e1bdc738aae1ce6eb625e49773e689b51c"
+                "reference": "9d00d79b18bb01f8641538025ce9406d80442600"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/5714c5e1bdc738aae1ce6eb625e49773e689b51c",
-                "reference": "5714c5e1bdc738aae1ce6eb625e49773e689b51c",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/9d00d79b18bb01f8641538025ce9406d80442600",
+                "reference": "9d00d79b18bb01f8641538025ce9406d80442600",
                 "shasum": ""
             },
             "require": {
@@ -208,7 +208,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2014-03-06 22:17:52"
+            "time": "2014-03-21 16:43:45"
         },
         {
             "name": "silverstripe-themes/simple",
