@@ -3,19 +3,13 @@
 global $project;
 $project = 'mysite';
 
-global $databaseConfig;
-$databaseConfig = array(
-	"type" => 'MySQLDatabase',
-	"server" => 'localhost',
-	"username" => 'root',
-	"password" => 'omega',
-	"database" => 'isa2',
-	"path" => '',
-);
+global $database;
+$database = 'isa2';
 
+require_once("conf/ConfigureFromEnv.php");
 // Set the site locale
 i18n::set_locale('en_US');
-Director::set_environment_type("dev");
+
 error_reporting(E_ALL);
 // add a button to remove formatting
 HtmlEditorConfig::get('cms')->insertButtonsBefore(
