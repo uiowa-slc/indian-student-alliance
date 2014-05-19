@@ -1,3 +1,10 @@
+<% if $BackgroundImage %>
+    	<div class="img-container $URLSegment" style="background-image: url($BackgroundImage.URL);">
+    		<% include Header %>
+    		<div class="img-fifty-top"></div>
+    	</div>
+    <% else %>
+<% end_if %>
 <div style="position: relative;" class="news">
     <section class="container content-wrapper calendar clearfix">
         <!-- $Breadcrumbs -->
