@@ -50,6 +50,8 @@ class Page_Controller extends ContentController {
 		Requirements::themedCSS('form');
 
     Requirements::block('division-bar/css/_division-bar.css');
+    Requirements::block("division-bar/js/division-bar.js");
+	Requirements::block( "division-project/js/vendor/jquery-1.8.3.min.js");
     Requirements::block('division-project/js/plugins-ck.js');
     Requirements::block('division-project/js/main.js');
     Requirements::block('framework/thirdparty/jquery/jquery.js');

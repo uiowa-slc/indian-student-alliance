@@ -34,7 +34,8 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="{$ThemeDir}/js/vendor/jquery-1.8.3.min.js">\x3C/script>')</script>
 	<script src="{$ThemeDir}/js/plugins-ck.js"></script>
-	<script src="{$ThemeDir}/js/main.js"></script>
+	<script src="{$ThemeDir}/js/main.js"></script> 
+	<script src="division-bar/js/division-bar.js"></script>
 
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
