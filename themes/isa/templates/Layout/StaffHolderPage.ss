@@ -12,7 +12,7 @@
 <div style="position: relative;">
       <section class="container Bcontent-wrapper clearfix staff">
             <!-- $Breadcrumbs -->
-            <section class="staff-content">
+            <section class="staff-content main-content">
             	$Form
             	$Content
             	<% loop Teams %>
