@@ -1,4 +1,3 @@
-
 <ul class="feed-nav">
 	<% with $BlogPage %>
 		<% if $Entries %>

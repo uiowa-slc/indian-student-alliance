@@ -1,4 +1,4 @@
-      <section class="topics-news hide-print">
+      <section class="topics hide-print">
             <div class="container ">
                 <div class="colgroup">
                     <div class="col-1-3 mod">
