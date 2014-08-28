@@ -1,7 +1,7 @@
       <section class="topics hide-print">
             <div class="container ">
                 <div class="colgroup">
-                    <div class="col-1-3 mod">
+                    <div class="col-2-3 mod">
                         <h3 class="mod-title ">Community Topics</h3>
                           <ul class="grid-justify">
                             <% with Page("community") %>
@@ -11,7 +11,7 @@
                             <% end_with %>
                           </ul>
                     </div>
-                    <div class="col-2-3 mod mod-news" >
+                    <div class="col-1-3 mod mod-news" >
    
                     <h3 class="mod-title">ISA on Facebook</h3>
                    <div style="overflow: hidden;">
