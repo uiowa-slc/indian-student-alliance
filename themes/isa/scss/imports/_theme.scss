@@ -1,4 +1,5 @@
 $orange: #f79648;
+$green: #9ad000;
 
 a {
     color: $orange;
@@ -22,6 +23,7 @@ aside .mod a {
     	}*/
 }
 
+/* Header overrides on medium and larger screens */
 @media screen and (min-width: $break-medium) {
     .header {
         background: #313131 url("../images/nav_green.png") repeat-x left bottom;
@@ -45,7 +47,18 @@ aside .mod a {
     .main-content {
         min-height: 700px;
     }
+    .nav-main .active a:after, .nav-main a:hover:after, .nav-main a:focus:after{
+    	border-color: transparent transparent $orange transparent;
+    }
 }
+
+/* HomePage Hero Styles */
+
+.hero-text li a{
+	background: $green;
+}
+
+/* Event Styles */
 
 .event-list {
     .event {
