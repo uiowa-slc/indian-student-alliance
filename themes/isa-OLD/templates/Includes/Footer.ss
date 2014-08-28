@@ -4,12 +4,8 @@
     <div class="container">
         <div class="colgroup">
 			<div class="col-1-2">
-<<<<<<< HEAD
 				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="{$ThemeDir}/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a><br>
-=======
-				<a href="http://studentlife.uiowa.edu" class="hide-print"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life" style="margin-top: -20px;"></a><br>
->>>>>>> conform-to-division-project
-				<p>Indian Student Alliance hosts a series of cultural, education, social, and charitable events designed to promote communal unity. </p>
+				<p>India Student Alliance hosts a series of cultural, education, social, and charitable events designed to promote communal unity. </p>
 				<p>260 Iowa Memorial Union, Iowa City, IA 52242</p>
 			</div>
 			<div class="col-1-4 hide-print">
@@ -24,7 +20,7 @@
 				</div>
 			</div>
 			<div class="col-1-4 hide-print">
-							<div class="disability-statement"><p>Individuals with disabilities are encouraged to attend all University of Iowa-sponsored events. If you are a person with a disability who requires an accommodation in order to participate in this program, please contact <a href="mailto:isaiowa@gmail.com">ISA</a> in advance.</p></div>
+				
 			</div>
         </div>
         <hr>

@@ -7,25 +7,20 @@
 	<div class="container clearfix">
 		<div class="white-cover"></div>
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
-		$Content
-		<% if Events %>
-		<h2>Upcoming Scheduled Events</h2>
-		<div id="event-calendar-events">
-		  <% include EventList %>
-		</div>
-		<hr />
-		<% else %>
-		  
-		<% end_if %>
+			<h2>$DateHeader</h2>
+			<% if Events %>
+			<div id="event-calendar-events">
+			  <% include EventList %>
+			</div>
+			<% else %>
+			  <p><% _t('NOEVENTS','There are no events') %>.</p>
+			<% end_if %>
 	    </section>
 	    <section class="sec-content hide-print">
-	    	<h3 class="section-title">All Annual Events</h3>
-			<ul class="all-events">
-			<% loop Children %>
-				<li><a href="$Link">$Title</a></li>
-			<% end_loop %>
-			</ul>
+	    	$Content
+	    	<% include SideNav %>
 	    </section>
 	</div>
 </div>
-<% include TopicsAndNews %>
+<% include TopicsAndNews %> 
+

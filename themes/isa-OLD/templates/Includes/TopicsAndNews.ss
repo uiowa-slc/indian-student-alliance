@@ -1,17 +1,19 @@
-      <section class="topics hide-print">
+      <section class="topics-news hide-print" style="border-top: 1px solid #eee">
             <div class="container ">
                 <div class="colgroup">
-                    <div class="col-2-3 mod">
+                    <div class="col-1-3 TNmod mod-news">
                         <h3 class="mod-title ">Community Topics</h3>
-                          <ul class="grid-justify">
-                            <% with Page("community") %>
-                              <% loop $Entries('8') %>
-                                <li><a href="$Link">$MenuTitle</a></li>
-                                <% end_loop %>
+                        <ul>
+                          <% with Page(community) %>
+                            <% loop $Entries('5', 'community') %>
+                              <li><h4><a href="$Link">$MenuTitle</a></h4>
+                              </li>
+                              <% end_loop %>
                             <% end_with %>
-                          </ul>
+                            <li class = " viewTN"><a id = "viewAll" href="$Link">View all Topics</a></li>
+                        </ul>
                     </div>
-                    <div class="col-1-3 mod mod-news" >
+                    <div class="col-2-3 TNmod mod-news" >
    
                     <h3 class="mod-title">ISA on Facebook</h3>
                    <div style="overflow: hidden;">
