@@ -2,19 +2,18 @@
 class Page extends SiteTree {
 
 	private static $db = array(
-		
+
 	);
 
 	private static $has_one = array(
-		
+
 	);
 
+	private static $many_many = array(
 
-	private static $many_many = array (
-		
 	);
 
-    private static $plural_name = "Pages";
+	private static $plural_name = "Pages";
 
 }
 
@@ -35,7 +34,7 @@ class Page_Controller extends ContentController {
 	 *
 	 * @var array
 	 */
-	private static $allowed_actions = array (
+	private static $allowed_actions = array(
 	);
 
 	public function init() {
@@ -49,26 +48,24 @@ class Page_Controller extends ContentController {
 		Requirements::themedCSS('typography');
 		Requirements::themedCSS('form');
 
-
-    Requirements::block('framework/thirdparty/jquery/jquery.js');
-    Requirements::block('event_calendar/javascript/calendar.js');
-    
+		Requirements::block('framework/thirdparty/jquery/jquery.js');
+		Requirements::block('event_calendar/javascript/calendar.js');
 
 	}
-	
-	public function Events(){
-    $events = $this->RSSDisplay(3, 'http://afterclass.uiowa.edu/events/categoriesrss/Center%20for%20Student%20Involvement%20and%20Leadership');
-    return $events;
 
-    }	
+	public function Events() {
+		$events = $this->RSSDisplay(3, 'http://afterclass.uiowa.edu/events/categoriesrss/Center%20for%20Student%20Involvement%20and%20Leadership');
+		return $events;
+
+	}
 
 	/* Clear Out Empty Lines from SS Template Indents */
 	/*public function handleRequest(SS_HTTPRequest $request, DataModel $model) {
-		$ret = parent::handleRequest($request, $model);
-		$temp=$ret->getBody();
-		$temp = preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $temp);
-		$ret->setBody($temp);
-		return $ret;
-	} */
-	
+$ret = parent::handleRequest($request, $model);
+$temp=$ret->getBody();
+$temp = preg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $temp);
+$ret->setBody($temp);
+return $ret;
+} */
+
 }

@@ -10,10 +10,10 @@
         $Breadcrumbs
         <h1>$Title</h1>
           <% with CurrentDate %>
-            <p class="dates">Date:  $StartDate.Format("l, F j, Y")
-              <% if StartTime %><br>Time: $TimeRange<% end_if %>             
+            <p class="dates"><strong>Date:</strong>  $StartDate.Format("l, F j, Y")
+              <% if StartTime %><br /><strong>Time:</strong>$TimeRange<% end_if %>             
           <% end_with %>
-           <% if EventLocation %><br>Location: $EventLocation<% end_if %></p>
+           <% if EventLocation %><br /><strong>Location:</strong> $EventLocation<% end_if %></p>
           $Content
       </section>
       <section class="sec-content hide-print">
