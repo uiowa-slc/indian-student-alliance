@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     //compile the sass
 
     sass: {
-      dist: {
+      dist: { 
         files: {
           '<%=globalConfig.themeDir %>/css/master.css' : '<%=globalConfig.themeDir %>/scss/master.scss'
         },                  // Target
@@ -30,7 +30,9 @@ module.exports = function(grunt) {
     concat: {
       js:{
         src: [
-          'division-project/build/build.src.js'],
+          'division-project/build/build.src.js',
+          '<%=globalConfig.themeDir %>/js/*.js', 
+          ],
         dest: '<%=globalConfig.themeDir %>/build/build-src.js'
       }
     },
@@ -50,7 +52,7 @@ module.exports = function(grunt) {
     },
     watch: {
       scripts: {
-        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js','division-project/js/*.js'],
+        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js'],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: true,
@@ -62,9 +64,22 @@ module.exports = function(grunt) {
         options: {
           spawn: true,
         }
-      }
+      },
     },
-
+      criticalcss: {
+            custom: {
+                options: {
+                    url: "http://localhost:8888/isa2/",
+                    width: 1200,
+                    height: 900,
+                    outputfile: "<%=globalConfig.themeDir %>/templates/Includes/CriticalCss.ss",
+                    filename: "<%=globalConfig.themeDir %>/css/master.css", // Using path.resolve( path.join( ... ) ) is a good idea here
+                    buffer: 800*1024,
+                    ignoreConsole: false,
+                    forceInclude: ['.img-container', '.main-content']
+                }
+            }
+        }
   });
 
   // Load the plugin that provides the "uglify" task.
@@ -73,9 +88,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-simple-watch');
+  grunt.loadNpmTasks('grunt-criticalcss');
 
   // Default task(s).
   // Note: order of tasks is very important
-  grunt.registerTask('default', ['sass', 'concat', 'uglify', 'watch']);
+  grunt.registerTask('default', ['sass', 'concat', 'uglify', 'criticalcss', 'watch']);
 
 };

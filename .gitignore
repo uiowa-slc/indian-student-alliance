@@ -50,3 +50,7 @@ staticpublishqueue/
 tenon/
 
 gridfieldextensions/
+
+gridfieldajaxrefresh/
+
+gridfieldpaginatorwithshowall/
