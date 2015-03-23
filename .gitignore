@@ -44,5 +44,9 @@ ac-json-events/
 focuspoint/
 
 quickaddnew/
-
 gridfieldextensions/
+staticpublishqueue/
+tenon/
+gridfieldextensions/
+gridfieldajaxrefresh/
+gridfieldpaginatorwithshowall/
