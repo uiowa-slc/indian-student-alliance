@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dd346b020d882c5e524ce865dc24a3c1",
+    "hash": "3e443518f5a4717a55f53fbd5e6caa97",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -248,16 +248,16 @@
         },
         {
             "name": "md/division-project",
-            "version": "2.0",
+            "version": "2.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "10dccc613cbc84a3908329251dad3344015cf399"
+                "reference": "1dacb306fbbd059bcd2813f6430519222a6353ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/10dccc613cbc84a3908329251dad3344015cf399",
-                "reference": "10dccc613cbc84a3908329251dad3344015cf399",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/1dacb306fbbd059bcd2813f6430519222a6353ca",
+                "reference": "1dacb306fbbd059bcd2813f6430519222a6353ca",
                 "shasum": ""
             },
             "require": {
@@ -294,7 +294,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2015-03-23 16:46:44"
+            "time": "2015-03-24 15:35:51"
         },
         {
             "name": "md/rss-display",
@@ -777,12 +777,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-spamprotection.git",
-                "reference": "ae391bcfb26b4c9b5b8da629b01d3f4405857cf6"
+                "reference": "4478e61390a902462b1f450e418100835b3b7536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-spamprotection/zipball/ae391bcfb26b4c9b5b8da629b01d3f4405857cf6",
-                "reference": "ae391bcfb26b4c9b5b8da629b01d3f4405857cf6",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-spamprotection/zipball/4478e61390a902462b1f450e418100835b3b7536",
+                "reference": "4478e61390a902462b1f450e418100835b3b7536",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "silverstripe",
                 "spamprotection"
             ],
-            "time": "2015-03-22 22:35:25"
+            "time": "2015-03-23 23:26:52"
         },
         {
             "name": "silverstripe/staticpublishqueue",
