@@ -15,13 +15,14 @@
 		</div>
 		<hr />
 		<% else %>
-		  
+		 <h2>Events that happened in the last year</h2>
+		 	<% include PastEventList %>
 		<% end_if %>
 	    </section>
 	    <section class="sec-content hide-print">
 	    	<h3 class="section-title">All Annual Events</h3>
 			<ul class="all-events">
-			<% loop Children %>
+			<% loop AllChildren %>
 				<li><a href="$Link">$Title</a></li>
 			<% end_loop %>
 			</ul>
