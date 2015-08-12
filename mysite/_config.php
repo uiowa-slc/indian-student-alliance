@@ -46,3 +46,7 @@ Object::add_extension("BlogEntry","BlogFieldExtension");
 Object::add_extension("CalendarEvent", "CalendarEventFieldExtension");
 Object::add_extension("Page", "WidgetExtension");
 Object::add_extension("HomePage_Controller", "HomePageControllerExtension");
+
+if(Director::isLive()) {
+	Director::forceSSL(array('/^Security/','/^admin/'));
+}
