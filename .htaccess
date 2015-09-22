@@ -249,3 +249,5 @@ FileETag None
     ExpiresByType image/svg+xml                         "access plus 1 month"
 
 </IfModule>
+php_flag display_errors on
+php_value error_reporting -1
