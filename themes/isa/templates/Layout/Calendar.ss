@@ -9,18 +9,18 @@
 	    <section class="main-content <% if $BackgroundImage %>margin-top<% end_if %>">
 		$Content
 		<% if Events %>
-		<h2>Upcoming Scheduled Events</h2>
+		<h2>Upcoming scheduled events:</h2>
 		<div id="event-calendar-events">
 		  <% include EventList %>
 		</div>
 		<hr />
 		<% else %>
-		 <h2>Events that happened in the last year</h2>
+		 <h2>All annual events:</h2>
 		 	<% include PastEventList %>
 		<% end_if %>
 	    </section>
 	    <section class="sec-content hide-print">
-	    	<h3 class="section-title">All Annual Events</h3>
+	    	<h3 class="section-title">All annual events:</h3>
 			<ul class="all-events">
 			<% loop AllChildren %>
 				<li><a href="$Link">$Title</a></li>

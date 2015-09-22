@@ -61,6 +61,17 @@ aside .mod a {
 /* Event Styles */
 
 .event-list {
+    margin: 0;
+    a{
+        display: block;
+        height: 100%;
+        color: white;
+
+        h3{
+            color: white;
+            text-align: center;
+        }
+    }
     .event {
         h3 {
             margin-top: 0;
