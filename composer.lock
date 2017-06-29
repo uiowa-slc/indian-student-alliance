@@ -85,16 +85,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+                "reference": "ae73c5dfec9279bd4c35a49a49fcb6568aa8aba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                "url": "https://api.github.com/repos/composer/installers/zipball/ae73c5dfec9279bd4c35a49a49fcb6568aa8aba4",
+                "reference": "ae73c5dfec9279bd4c35a49a49fcb6568aa8aba4",
                 "shasum": ""
             },
             "require": {
@@ -195,7 +195,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-04-24T06:37:16+00:00"
+            "time": "2017-06-07 10:23:00"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -867,12 +867,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory.git",
-                "reference": "95043ecfe837a7e13bb69fd3d6e72b334ef8cfd5"
+                "reference": "154398644383e612ea8fcd6d5e2d7599a9de4378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/95043ecfe837a7e13bb69fd3d6e72b334ef8cfd5",
-                "reference": "95043ecfe837a7e13bb69fd3d6e72b334ef8cfd5",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/154398644383e612ea8fcd6d5e2d7599a9de4378",
+                "reference": "154398644383e612ea8fcd6d5e2d7599a9de4378",
                 "shasum": ""
             },
             "require": {
@@ -919,7 +919,7 @@
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory/tree/3"
             },
-            "time": "2017-06-26 14:11:19"
+            "time": "2017-06-29 20:22:09"
         },
         {
             "name": "silverstripe/blog",
