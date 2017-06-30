@@ -10,3 +10,12 @@ SSViewer:
 StaffHolderPage:
   extensions:
     - 'StaffHolderPageExtension'
+StaffPage:
+  extensions:
+    - 'StaffPageExtension'
+CalendarEvent:
+  extensions:
+    - 'CalendarEventFieldExtension'
+HomePage_Controller:
+  extensions:
+    - 'HomePageControllerExtension'
