@@ -2,6 +2,7 @@
 <div class="container clearfix">
       <div class="white-cover"></div>
       <section class="staff-content main-content">
+            <h1>$Title</h1>
             $Breadcrumbs
       	$Form
       	$Content
