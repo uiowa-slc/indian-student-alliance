@@ -534,12 +534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "9b994a5de5f8ae9f453ea6085a557cfb428edc32"
+                "reference": "19ea6916afdd4802c486df688045ee4bd115240f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/9b994a5de5f8ae9f453ea6085a557cfb428edc32",
-                "reference": "9b994a5de5f8ae9f453ea6085a557cfb428edc32",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/19ea6916afdd4802c486df688045ee4bd115240f",
+                "reference": "19ea6916afdd4802c486df688045ee4bd115240f",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-09-22 20:30:50"
+            "time": "2017-09-26 19:56:24"
         },
         {
             "name": "md/rss-display",
@@ -1948,16 +1948,16 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "4.x-dev",
+            "version": "4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "77538fac0baee72d9994af9e71bbfc72eba3ce79"
+                "reference": "ab794f4790829c34c6b50ba835ac9afce0e122c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/77538fac0baee72d9994af9e71bbfc72eba3ce79",
-                "reference": "77538fac0baee72d9994af9e71bbfc72eba3ce79",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/ab794f4790829c34c6b50ba835ac9afce0e122c2",
+                "reference": "ab794f4790829c34c6b50ba835ac9afce0e122c2",
                 "shasum": ""
             },
             "require": {
@@ -2003,7 +2003,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2017-08-21 22:42:56"
+            "time": "2017-08-25T04:44:47+00:00"
         },
         {
             "name": "silverstripe/widgets",

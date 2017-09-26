@@ -3,13 +3,13 @@
 class CalendarEventFieldExtension extends DataExtension {
 
   private static $db = array(
-        'EventLocation' => 'Text'
-    );
- static $has_one = array(
-        'MainImage' => 'Image',
-        'Image' => 'Image',
-       
-    );
+          'EventLocation' => 'Text'
+      );
+   private static $has_one = array(
+          'MainImage' => 'Image',
+          'Image' => 'Image',
+         
+      );
     
     public function getCMSFields() {
       $this->extend('updateCMSFields', $fields);
