@@ -1,0 +1,72 @@
+sk:
+  ActivePollPage:
+    DESCRIPTION: 'Zobrazí všetky aktívne ankety (widgety).'
+    NOPOLLS: 'Žiadne ankety&hellip;'
+    PLURALNAME: 'Stránky aktívnych ankiet'
+    SINGULARNAME: 'Stránka aktívnych ankiet'
+  ArchivedPollPage:
+    DESCRIPTION: 'Zobrazí všetky ukončené ankety (widgety).'
+    NOPOLLS: 'Žiadne ankety&hellip;'
+    PLURALNAME: 'Stránky ukončených ankiet'
+    SINGULARNAME: 'Stránka ukončených ankiet'
+  Poll:
+    ACTIVE: 'Povoliť hlasovanie'
+    ALLOWEDRESULTSGROUPSDESCRIPTION: 'Skupiny používateľov, pre ktoré sú výsledky hlasovania povolené.'
+    ALLOWEDRESULTSMEMBERSDESCRIPTION: 'Členovia, pre ktorých sú výsledky hlasovania povolené.'
+    ALLOWRESULTS: 'Povoliť výsledky hlasovania'
+    AVAILABILITY: Platnosť
+    AVAILABLEFROM: 'Platnosť od'
+    AVAILABLETO: 'Platnosť do'
+    ENABLEMULTISELECT: 'Povoliť výber viacerých možností'
+    FROM: Od
+    MINOPTIONSCOUNT: 'Minimálny počet'
+    MAXOPTIONSCOUNT: 'Maximálny počet'
+    MEMBERPLACEHOLDER: 'Kliknite pre vybratie člena'
+    MULTIPLEOPTIONSCOUNT: 'Počet viacerých možností'
+    NOANSWER: 'Žiadna odpoveď'
+    NUMBEROFVOTES: 'Počet hlasujúcich'
+    OPTIONS: Možnosti
+    PERMISSION_CREATE: 'Vytvoriť anketu'
+    PERMISSION_DELETE: 'Vymazať anketu'
+    PERMISSION_EDIT: 'Upraviť anketu'
+    PERMISSION_VIEW: 'Zobraziť anketu'
+    PERMISSIONS_CATEGORY: 'Oprávnenia v anketách'
+    PLURALNAME: Ankety
+    SINGULARNAME: Anketa
+    SORTORDER: 'Poradie zoradenia'
+    STATUS: 'Zobraziť anketu'
+    TABVISIBILITY: Viditeľnosť
+    TABVOTINGRESULTS: 'Výsledky hlasovania'
+    TITLE: Nadpis
+    TO: Do
+    VISIBILITYNOTE: Poznámka
+    VISIBILITYNOTEDESCRIPTION: 'Ak nie je nič vybraté, anketa sa zobrazuje pre všetkých členov.'
+    VISIBLEGROUPSDESCRIPTION: 'Skupiny používateľov, pre ktoré sa anketa zobrazuje.'
+    VISIBLEMEMBERSDESCRIPTION: 'Členovia, pre ktorých sa anketa zobrazuje.'
+    VOTINGRESULTSNOTE: Poznámka
+    VOTINGRESULTSNOTEDESCRIPTION: 'Ak nie je nič vybraté, výsledky hlasovania sú povolené pre všetkých členov.'
+  PollAdmin:
+    MENUTITLE: Ankety
+  PollSubmission:
+    OPTION: Odpoveď
+    PERMISSION_DELETE: 'Vymazať hodnotenie'
+    PERMISSION_VIEW: 'Zobraziť hodnotenie'
+    PLURALNAME: Hodnotenia
+    POLL:
+      ACTIVE: 'Povolené hlasovanie'
+      STATUS: 'Viditeľná anketa'
+    SINGULARNAME: Hodnotenie
+  PollWidget:
+    CMSTITLE: 'Anketa'
+    DESCRIPTION: 'Zobrazí anketu.'
+    TITLE: 'Anketa'
+  Poll_Controller:
+    NOPOLLS: 'Žiadne ankety&hellip;'
+    POLLSTITLE: Ankety
+    POLLTITLE: Anketa
+    VOTE: Hlasovať
+  Poll_FrontEndValidator:
+    SELECTCORRECTOPTIONSCOUNT: 'Prosím, vyberte aspoň {minCount}, ale nie viac ako {maxCount} možnosti.'
+  Poll_Validator:
+    INCORRECTDATERANGE: 'Nesprávne poradie dátumov'
+    INCORRECTOPTIONSCOUNTRANGE: 'Nesprávny rozsah výberu minimálneho a maximálneho počtu možností'

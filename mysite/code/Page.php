@@ -35,11 +35,12 @@ class Page_Controller extends ContentController {
 	 * @var array
 	 */
 	private static $allowed_actions = array(
+		'PollForm'
 	);
 
 	public function init() {
 		parent::init();
-
+		print_r(FreeGeoipService::get_country_code());
 		// Note: you should use SS template require tags inside your templates
 		// instead of putting Requirements calls here.  However these are
 		// included so that our older themes still work
@@ -58,7 +59,6 @@ class Page_Controller extends ContentController {
 		return $events;
 
 	}
-
 	/* Clear Out Empty Lines from SS Template Indents */
 	/*public function handleRequest(SS_HTTPRequest $request, DataModel $model) {
 $ret = parent::handleRequest($request, $model);
