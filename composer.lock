@@ -85,16 +85,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.4.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
+                "reference": "e32ee876ec69efc5c202664689529f086abd4530"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
-                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "url": "https://api.github.com/repos/composer/installers/zipball/e32ee876ec69efc5c202664689529f086abd4530",
+                "reference": "e32ee876ec69efc5c202664689529f086abd4530",
                 "shasum": ""
             },
             "require": {
@@ -106,7 +106,7 @@
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
+                "phpunit/phpunit": "^4.8.36"
             },
             "type": "composer-plugin",
             "extra": {
@@ -177,15 +177,18 @@
                 "lavalite",
                 "lithium",
                 "magento",
+                "majima",
                 "mako",
                 "mediawiki",
                 "modulework",
+                "modx",
                 "moodle",
                 "osclass",
                 "phpbb",
                 "piwik",
                 "ppi",
                 "puppet",
+                "pxcms",
                 "reindex",
                 "roundcube",
                 "shopware",
@@ -198,7 +201,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-08-09T07:53:48+00:00"
+            "time": "2017-11-24 12:55:39"
         },
         {
             "name": "embed/embed",
@@ -888,12 +891,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "4a45f505ce15e7bfbe2e46e4175dec84a2e4a788"
+                "reference": "6d7ed0e9df8b87ad6ce8c726a9a8d638e308ba95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/4a45f505ce15e7bfbe2e46e4175dec84a2e4a788",
-                "reference": "4a45f505ce15e7bfbe2e46e4175dec84a2e4a788",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/6d7ed0e9df8b87ad6ce8c726a9a8d638e308ba95",
+                "reference": "6d7ed0e9df8b87ad6ce8c726a9a8d638e308ba95",
                 "shasum": ""
             },
             "require": {
@@ -944,7 +947,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-11-13 15:36:37"
+            "time": "2017-11-27 16:21:08"
         },
         {
             "name": "md/rss-display",
@@ -1277,16 +1280,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PlatoCreative/silverstripe-typekit.git",
-                "reference": "6847b3aa0f2993523a30ef06556ec39060f8f3c4"
+                "reference": "932420f347b7794749583acf7f452f64c62c4fb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PlatoCreative/silverstripe-typekit/zipball/6847b3aa0f2993523a30ef06556ec39060f8f3c4",
-                "reference": "6847b3aa0f2993523a30ef06556ec39060f8f3c4",
+                "url": "https://api.github.com/repos/PlatoCreative/silverstripe-typekit/zipball/932420f347b7794749583acf7f452f64c62c4fb1",
+                "reference": "932420f347b7794749583acf7f452f64c62c4fb1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
                 "silverstripe/cms": "^3.5",
                 "silverstripe/framework": "^3.5"
             },
@@ -1317,7 +1319,7 @@
                 "typekit",
                 "typography"
             ],
-            "time": "2017-06-12 23:37:15"
+            "time": "2017-11-09 00:03:30"
         },
         {
             "name": "psr/http-message",
@@ -1787,12 +1789,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
-                "reference": "44a6eabbd5fd6558f5a298e8b320fdee5bf7ceb4"
+                "reference": "ef3573434c765ca2d6d6606ce28a8ab56ae49353"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/44a6eabbd5fd6558f5a298e8b320fdee5bf7ceb4",
-                "reference": "44a6eabbd5fd6558f5a298e8b320fdee5bf7ceb4",
+                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/ef3573434c765ca2d6d6606ce28a8ab56ae49353",
+                "reference": "ef3573434c765ca2d6d6606ce28a8ab56ae49353",
                 "shasum": ""
             },
             "require": {
@@ -1820,7 +1822,7 @@
                 "silverstripe",
                 "theme"
             ],
-            "time": "2017-02-01 23:56:41"
+            "time": "2017-11-15 08:37:24"
         },
         {
             "name": "silverstripe/activedirectory",
@@ -1888,12 +1890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "ffc0ab7f3890e573e18147ed8b687e7214128fe2"
+                "reference": "4810e73278f54163015975f2ad550dc084dbd91d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/ffc0ab7f3890e573e18147ed8b687e7214128fe2",
-                "reference": "ffc0ab7f3890e573e18147ed8b687e7214128fe2",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/4810e73278f54163015975f2ad550dc084dbd91d",
+                "reference": "4810e73278f54163015975f2ad550dc084dbd91d",
                 "shasum": ""
             },
             "require": {
@@ -1914,7 +1916,7 @@
             "type": "silverstripe-module",
             "extra": {
                 "branch-alias": {
-                    "2.x-dev": "2.5.x-dev"
+                    "2.x-dev": "2.6.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1933,7 +1935,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2017-11-03 02:35:11"
+            "time": "2017-11-20 01:32:05"
         },
         {
             "name": "silverstripe/cms",
