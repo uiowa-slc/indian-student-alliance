@@ -22,11 +22,12 @@ $Header
 
 			<div class="main-content__text">
 				<div class="locallistevent">
-
+					<% if $CurrentDate %>
 					  <% with CurrentDate %>
 					  <p><strong>Date: </strong>$DateRange<% if AllDay %> <% _t('Calendar.ALLDAY','All Day') %><% else %><% if StartTime %> $TimeRange<% end_if %><% end_if %></p>
 					  <p><a href="$ICSLink" class="button"><% _t('CalendarEvent.ADD','Add this to Calendar') %></a></p>
 					  <% end_with %>
+					<% end_if %>
 						<% if $Location %>
 							<p><strong>Location:</strong><br />$Location
 							</p>
