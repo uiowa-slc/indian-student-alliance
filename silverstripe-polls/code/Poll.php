@@ -350,6 +350,10 @@ class Poll extends DataObject implements PermissionProvider {
 		return ($submission = PollSubmission::get()->filter(array('PollID'=>$this->ID, 'MemberID'=>$member->ID))->limit(1)->first()) && $submission->exists();
 	}
 
+	public function sessionVoted(){
+		return false;
+	}
+
 	public function isAllowedVotingResults($member) {
 		$allowedResultsGroups = $this->AllowedResultsGroups();
 		$allowedResultsMembers = $this->AllowedResultsMembers();
@@ -364,18 +368,11 @@ class Poll extends DataObject implements PermissionProvider {
 	}
 
 	private function canViewPoll($member) {
-		return Permission::checkMember($member, self::VIEW_PERMISSION)
-		|| ($this->isPollVisible($member) && ($this->isPollActive() || $this->memberVoted($member)));
+		return FreeGeoipService::inIowaCity() && ($this->isPollActive() || $this->sessionVoted());
 	}
 
 	public function canView($member = null) {
-		$member = $this->getMember($member);
-
-		if (!$member || !$member->exists())
-			return false;
-
-		return (($extended = $this->extendedCan(__FUNCTION__, $member))) !== null ? $extended :
-			$this->canViewPoll($member);
+		return FreeGeoipService::inIowaCity();
 	}
 
 	public function canEdit($member = null) {

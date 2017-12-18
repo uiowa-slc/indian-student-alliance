@@ -38,6 +38,11 @@ class Page_Controller extends ContentController {
 		'PollForm'
 	);
 
+	public function Polls(){
+
+		return Poll::get();
+	}
+
 	public function init() {
 		parent::init();
 		//print_r(FreeGeoipService::get_country_code());

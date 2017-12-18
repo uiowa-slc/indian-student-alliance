@@ -68,7 +68,7 @@ class Poll_Controller extends Page_Controller {
 	}
 
 	public function PollForm() {
-		if (!$this->Poll->isPollActive() || $this->Poll->memberVoted(Member::currentUser()))
+		if (!$this->Poll->isPollActive() || $this->Poll->sessionVoted())
 			return false;
 
 		$fields = $this->Poll->getFrontEndFields();
