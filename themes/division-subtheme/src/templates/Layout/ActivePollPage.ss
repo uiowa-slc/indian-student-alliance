@@ -26,6 +26,9 @@ $BlockArea(BeforeContent)
 		<div class="main-content__text">
 
 			$Content
+		<% if $SideBarView %>
+			$SideBarView
+		<% end_if %>
 		</div>
 		$BlockArea(AfterContentConstrained)
 		$Form
@@ -35,9 +38,7 @@ $BlockArea(BeforeContent)
 	</article>
 	<aside class="sidebar dp-sticky">
 		<% include SideNav %>
-		<% if $SideBarView %>
-			$SideBarView
-		<% end_if %>
+
 		$BlockArea(Sidebar)
 	</aside>
 </div>
