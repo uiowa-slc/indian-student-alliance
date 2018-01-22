@@ -70,7 +70,7 @@
                     <% end_if %>
                 <% else %>
                     <div class="callout alert">
-                        <p>You weren't detected to be in Iowa City. We only allow voting in Iowa City</p>
+                        <p>You weren't detected to be in Iowa City. We only allow voting in Iowa City. <% if $CurrentCity %>We detected you're in <strong>$CurrentCity</strong>.<% end_if %></p>
                     </div>
 
                 <% end_if %>

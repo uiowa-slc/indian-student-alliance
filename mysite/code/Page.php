@@ -46,6 +46,10 @@ class Page_Controller extends ContentController {
 		return FreeGeoipService::inIowaCity();
 	}
 
+	public function CurrentCity(){
+		return FreeGeoipService::get_city();
+	}
+
 	public function init() {
 		parent::init();
 		//print_r(FreeGeoipService::get_country_code());
