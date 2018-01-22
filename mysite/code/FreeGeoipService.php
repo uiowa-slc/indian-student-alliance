@@ -34,17 +34,17 @@ class FreeGeoipService {
 			$url = self::$lookup_url."json/{$ip}";
 			if($response = @file_get_contents($url)) {
 				$data = json_decode($response);
-				$city = $data->city;
+				$city = $data->region_name;
 			}
 		}
-		print_r($data);
+		//print_r($data);
 		self::set_city_to_session($city);
 		return $city;
 	}
 
 	public static function inIowaCity(){
 		$city = FreeGeoipService::get_city();
-		if($city == 'Iowa City'){
+		if($city == 'Iowa'){
 			return true;
 		}
 		return false;
