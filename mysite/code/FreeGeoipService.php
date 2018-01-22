@@ -37,7 +37,7 @@ class FreeGeoipService {
 				$city = $data->city;
 			}
 		}
-		//print_r($data);
+		print_r($data);
 		self::set_city_to_session($city);
 		return $city;
 	}
