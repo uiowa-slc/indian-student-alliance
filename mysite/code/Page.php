@@ -39,8 +39,11 @@ class Page_Controller extends ContentController {
 	);
 
 	public function Polls(){
-
 		return Poll::get();
+	}
+
+	public function IsInIowaCity(){
+		return FreeGeoipService::inIowaCity();
 	}
 
 	public function init() {
