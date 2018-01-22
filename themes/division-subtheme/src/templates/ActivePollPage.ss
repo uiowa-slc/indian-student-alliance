@@ -65,15 +65,16 @@
                     <div class="callout success">
                         <p>Your location was detected to be in Iowa City, you can vote in the polls below:</p>
                     </div>
+                    <% if $SideBarView %>
+                        $SideBarView
+                    <% end_if %>
                 <% else %>
                     <div class="callout alert">
                         <p>You weren't detected to be in Iowa City. We only allow voting in Iowa City</p>
                     </div>
 
                 <% end_if %>
-    		<% if $SideBarView %>
-    			$SideBarView
-    		<% end_if %>
+
 
     		</div>
     		$BlockArea(AfterContentConstrained)
