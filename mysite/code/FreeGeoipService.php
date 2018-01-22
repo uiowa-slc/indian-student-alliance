@@ -27,10 +27,10 @@ class FreeGeoipService {
 		// 	return $code;
 		// }
 		if(isset($_SERVER['REMOTE_ADDR'])) {
-			// $ip = $_SERVER['REMOTE_ADDR'];
+			$ip = $_SERVER['REMOTE_ADDR'];
 			//TODO GET REAL CLIENT IP ADDR:
 			//$ip = '222.83.191.160';
-			$ip = '2620:0:e50:2007:b1d4:f997:653e:3084';
+			//$ip = '2620:0:e50:2007:b1d4:f997:653e:3084';
 			$url = self::$lookup_url."json/{$ip}";
 			if($response = @file_get_contents($url)) {
 				$data = json_decode($response);
