@@ -44,8 +44,8 @@ class Page_Controller extends ContentController {
 
 	public function IsInIowaCity(){
 
-
-		return FreeGeoipService::inIowaCity();
+		print_r($_SERVER['REMOTE_ADDR']);
+		// return FreeGeoipService::inIowaCity();
 	}
 
 	public function CurrentCity(){
