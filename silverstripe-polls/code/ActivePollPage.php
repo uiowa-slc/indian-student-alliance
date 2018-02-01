@@ -1,7 +1,9 @@
 <?php
 
 class ActivePollPage extends Page {
-
+	private static $has_one = array(
+		'MainImage' => 'Image'
+	);
 	private static $description = "Displays all active polls (widgets)";
 	private static $singular_name = "Active polls page";
 	private static $plural_name = "Active polls pages";
@@ -10,6 +12,14 @@ class ActivePollPage extends Page {
 
 	public function canCreate($member = null) {
 		return class_exists('Widget') && parent::canCreate($member);
+	}
+
+	public function getCMSFields(){
+		$f = parent::getCMSFields();
+		$f->removeByName('BackgroundImage');
+		$f->addFieldToTab('Root.Main', UploadField::create('MainImage', 'Main logo image'), 'Content');
+		return $f;
+
 	}
 }
 

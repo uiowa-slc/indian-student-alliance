@@ -51,6 +51,7 @@
 
 <div class="row">
     <div class="large-6 columns large-centered">
+
     	<article role="main">
     		$BlockArea(BeforeContentConstrained)
     		<% if $MainImage %>
@@ -61,19 +62,21 @@
 
                
     			$Content
-                <% if $IsInIowaCity %>
+     
 <%--                     <div class="callout success">
                         <p>Your location was detected to be in Iowa City, you can vote in the polls below:</p>
                     </div> --%>
-                    <% if $SideBarView %>
-                        $SideBarView
-                    <% end_if %>
-                <% else %>
-                    <div class="callout alert">
-                        <p>You weren't detected to be in Iowa City. We only allow voting in Iowa City. <% if $CurrentCity %>We detected you're in <strong>$CurrentCity</strong>.<% end_if %></p>
-                    </div>
 
-                <% end_if %>
+               
+                    <% with $Results %>
+                        <% loop Results %>
+                            <li>
+                                <div class="option">$Option: $Percentage%</div>
+                                <div class="bar" style="width:<% if Percentage=0 %>1px<% else %>$Percentage%<% end_if %>">&nbsp;</div>
+                            </li>
+                        <% end_loop %>
+                        <li><%t Poll.NUMBEROFVOTES "Number of votes" %>: <strong>$Total</strong></li>
+                    <% end_with %>
 
 
     		</div>

@@ -43,8 +43,11 @@ class FreeGeoipService {
 	}
 
 	public static function inIowaCity(){
-		$city = FreeGeoipService::get_city();
-		if($city == 'Iowa'){
+		if (Director::isDev()) {
+		    return true;
+		}
+		$region = FreeGeoipService::get_city();
+		if($region == 'Iowa'){
 			return true;
 		}
 		return false;

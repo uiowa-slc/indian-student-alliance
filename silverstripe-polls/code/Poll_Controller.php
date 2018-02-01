@@ -21,9 +21,7 @@ class Poll_Controller extends Page_Controller {
 	public function init() {
 		parent::init();
 
-		if (!Member::currentUserID())
-			return Security::permissionFailure($this);
-		elseif ($ID = $this->request->param('ID')) {
+		if ($ID = $this->request->param('ID')) {
 			if (!is_numeric($ID) || !($poll = Poll::get()->filter(array('ID'=>$ID))->limit(1)->first()))
 				return $this->httpError(404);
 			elseif (!$poll->canView())
@@ -89,6 +87,7 @@ class Poll_Controller extends Page_Controller {
 	}
 
 	public function doPoll($data, $form) {
+
 		$options = isset($data['Option']) ?
 			is_array($data['Option']) ? $data['Option'] : array($data['Option'])
 		:
@@ -98,15 +97,17 @@ class Poll_Controller extends Page_Controller {
 			$submission = new PollSubmission();
 
 			$submission->PollID = $this->Poll->ID;
-			$submission->MemberID = Member::currentUserID();
+			//$submission->MemberID = Member::currentUserID();
 			$submission->Option = $option;
-
+			Session::set('BrowserPollVoted-'.$this->Poll->ID, true);
+			$form->setMessage('Your vote has been counted' ,'good');
 			$submission->write();
 		}
 
 		if ($this->request->isAjax())
 			return json_encode($this->view()->getValue());
 		else
+
 			return $this->redirectBack();
 	}
 

@@ -1,3 +1,4 @@
+
 <div class="poll_detail">
 	<% if PollForm %>
 		$PollForm
@@ -15,13 +16,14 @@
 						<% end_loop %>
 						<li><%t Poll.NUMBEROFVOTES "Number of votes" %>: <strong>$Total</strong></li>
 					<% end_with %>
-				<% else_if $getSessionSubmissions($ID) %>
+				<% else_if CurrentUser.getMySubmissions($ID) %>
 					<% loop CurrentUser.getMySubmissions($ID) %>
 						<li>$Option</li>
 					<% end_loop %>
-				<% else %>
-					<li><%t Poll.NOANSWER "No answer" %></li>
+				<% else_if $sessionVoted %>
+					<li><p>You've already voted in this poll.</p></li>
 				<% end_if %>
+
 			</ul>
 		<% end_with %>
 	<% end_if %>

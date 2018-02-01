@@ -165,8 +165,10 @@ class Poll extends DataObject implements PermissionProvider {
 			$fields->addFieldToTab('Root.Main', $fields->dataFieldByName('Options'));
 			$fields->addFieldToTab('Root.Main', $fields->dataFieldByName('Active'));
 
-			$availableFromField = $fields->dataFieldByName('AvailableFrom')->setTitle(null);
-			$availableToField = $fields->dataFieldByName('AvailableTo')->setTitle(null);
+			$availableFromField = DateField::create('AvailableFrom')->setConfig('showcalendar', true);
+
+			$fields->dataFieldByName('AvailableFrom')->setTitle(null);
+			$availableToField = DateField::create('AvailableTo')->setConfig('showcalendar', true);
 
 			$fields->removeByName('AvailableFrom');
 			$fields->removeByName('AvailableTo');
@@ -255,15 +257,15 @@ class Poll extends DataObject implements PermissionProvider {
 	}
 
 	public function getResults() {
+
 		$filter = array(
 			'PollID' => $this->ID,
-			'MemberID:not' => 0
 		);
 
 		$submissions = new GroupedList(PollSubmission::get()->filter($filter));
 
 		$submissionOptions = $submissions->groupBy('Option');
-		$memberSubmissionsCount = count($submissions->groupBy('MemberID'));
+		$memberSubmissionsCount = count($submissions);
 
 		$results = new ArrayList();
 		$options = $this->getOptionsAsArray();
@@ -275,7 +277,9 @@ class Poll extends DataObject implements PermissionProvider {
 			)));
 		}
 
-		return new ArrayData(array('Total' => $memberSubmissionsCount, 'Results' => $results));
+		$data = new ArrayData(array('Total' => $memberSubmissionsCount, 'Results' => $results));
+
+		return $data;
 	}
 
 	public function getName() {
@@ -351,9 +355,12 @@ class Poll extends DataObject implements PermissionProvider {
 	}
 
 	public function sessionVoted(){
-		return false;
+		if(Session::get('BrowserPollVoted-'.$this->ID)) return true;
 	}
 
+	public function getSessionSubmissions(){
+
+	}
 	public function isAllowedVotingResults($member) {
 		$allowedResultsGroups = $this->AllowedResultsGroups();
 		$allowedResultsMembers = $this->AllowedResultsMembers();

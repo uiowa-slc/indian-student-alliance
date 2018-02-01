@@ -43,6 +43,8 @@ class Page_Controller extends ContentController {
 	}
 
 	public function IsInIowaCity(){
+
+
 		return FreeGeoipService::inIowaCity();
 	}
 
@@ -52,15 +54,8 @@ class Page_Controller extends ContentController {
 
 	public function init() {
 		parent::init();
-	$user = getenv('APACHE_RUN_USER');
-	if(!$user) $user = getenv('USER');
-	// if(!$user) $user = getenv('USERNAME');
-	// if(!$user && function_exists('posix_getuid')) {
-	// 	$userDetails = posix_getpwuid(posix_getuid());
-	// 	$user = $userDetails['name'];
-	// }
-		print_r('<!--'.$user.'-->');
-		//print_r(FreeGeoipService::get_country_code());
+		// Session::clear_all();
+		// Debug::show(Session::get_all());
 		Requirements::block('framework/thirdparty/jquery/jquery.js');
 		Requirements::block('event_calendar/javascript/calendar.js');
 

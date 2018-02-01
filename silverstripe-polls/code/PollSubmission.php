@@ -108,7 +108,7 @@ class PollSubmission extends DataObject implements PermissionProvider {
 		return Permission::checkMember($member, self::DELETE_PERMISSION);
 	}
 
-	public function canCreate($member = null) {
-		return false;
-	}
+	// public function canCreate($member = null) {
+	// 	return false;
+	// }
 }

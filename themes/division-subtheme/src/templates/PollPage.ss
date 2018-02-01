@@ -51,6 +51,11 @@
 
 <div class="row">
     <div class="large-6 columns large-centered">
+        <% if $Poll.sessionVoted %>
+            <div class="callout success">
+                <p>Thanks for voting in this poll!</p>
+            </div>
+        <% end_if %>
     	<article role="main">
     		$BlockArea(BeforeContentConstrained)
     		<% if $MainImage %>
@@ -65,9 +70,11 @@
 <%--                     <div class="callout success">
                         <p>Your location was detected to be in Iowa City, you can vote in the polls below:</p>
                     </div> --%>
-                    <% if $SideBarView %>
-                        $SideBarView
-                    <% end_if %>
+                <% if Poll %>
+                    $Poll.Controller.PollDetail
+                <% else %>
+                    <p><%t ActivePollPage.NOPOLLS 'There are no polls' %></p>
+                <% end_if %>
                 <% else %>
                     <div class="callout alert">
                         <p>You weren't detected to be in Iowa City. We only allow voting in Iowa City. <% if $CurrentCity %>We detected you're in <strong>$CurrentCity</strong>.<% end_if %></p>

@@ -2,10 +2,8 @@
 	<% if Content %>
 		<div class="typography">$Content</div>
 	<% end_if %>
-	<% if Widgets %>
-		<% loop Widgets %>
-			$WidgetHolder
-		<% end_loop %>
+	<% if Poll %>
+		$Poll.Controller.PollDetail
 	<% else %>
 		<p><%t ActivePollPage.NOPOLLS 'There are no polls' %></p>
 	<% end_if %>
