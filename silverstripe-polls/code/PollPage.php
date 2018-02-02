@@ -19,7 +19,8 @@ class PollPage extends Page {
 			'Content'
 		);
 
-		$f->addFieldToTab('Root.Main', LiteralField::create('PollsAdminLink', '<a href="admin/polls">Manage polls here &rarr;</a>'), 'Content');
+		$f->addFieldToTab('Root.Main', LiteralField::create('PollsAdminLink', '<a href="admin/polls" target="_blank">Manage polls here &rarr;</a><br />'), 'Content');
+		$f->addFieldToTab('Root.Main', LiteralField::create('PollResultsLink', '<a href="'.$this->Link('pollresults').'" target="_blank">View poll results &rarr;</a>'), 'Content');
 		return $f;
 
 	}
