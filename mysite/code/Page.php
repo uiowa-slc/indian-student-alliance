@@ -58,6 +58,7 @@ class Page_Controller extends ContentController {
 
 		foreach($ipChecks as $ipCheck){
 			if (strncmp($userIp, $ipCheck, strlen($ipCheck)) === 0){
+				print_r($ipCheck.' was matched.');
 				return true;
 			}
 		}
