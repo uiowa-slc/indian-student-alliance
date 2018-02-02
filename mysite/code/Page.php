@@ -44,8 +44,42 @@ class Page_Controller extends ContentController {
 
 	public function IsInIowaCity(){
 
-		print_r($_SERVER['REMOTE_ADDR']);
+		$ipChecks = array(
+			'172.17.',
+			'172.23.',
+			'172.17.128.',
+			'172.17.128.',
+			'64.134.',
+		);
+
+		$userIp = $_SERVER['REMOTE_ADDR'];
+
+		foreach($ipChecks as $ipCheck){
+			if (strncmp($userIp, $ipCheck, strlen($ipCheck)) === 0){
+				return true;
+			}
+		}
+//ATTWIFI:
+//64.134.*
+// Campus East of the Iowa River:
+// 172.17.0.0/17 (172.17.0.1 – 172.17.127.254)
+// 172.23.0.0/17 (172.23.0.1 - 172.23.127.254)
+
+// Campus West of the Iowa River and the Research Park:
+// 172.17.128.0/17 (172.17.128.1 – 172.17.255.254)
+// 172.23.128.0/17 (172.23.128.1 - 172.23.255.254)		
+		// $userIp = $_SERVER['REMOTE_ADDR']);
+		// if (strpos($string2, '1') === 0) {
+		//    // It starts with 'http'
+		// }
 		// return FreeGeoipService::inIowaCity();
+
+
+// Public IP addresses:  Globally (or Internet) routable IP addresses are assigned by the Internet Address Numbering Authority (IANA). IP address ranges registered by the University of Iowa include:
+
+// 128.255.0.0 – 128.255.255.255
+// 129.255.0.0 – 129.255.255.255
+
 	}
 
 	public function CurrentCity(){
