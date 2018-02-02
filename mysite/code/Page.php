@@ -59,6 +59,8 @@ class Page_Controller extends ContentController {
 				return true;
 			}
 		}
+
+		return FreeGeoipService::inIowaCity();
 //ATTWIFI:
 //64.134.*
 // Campus East of the Iowa River:
