@@ -50,6 +50,8 @@ class Page_Controller extends ContentController {
 			'172.17.128.',
 			'172.17.128.',
 			'64.134.',
+			'128.255.',
+			'129.255.0.0'
 		);
 
 		$userIp = $_SERVER['REMOTE_ADDR'];
