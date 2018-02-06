@@ -77,7 +77,7 @@
                 <% end_if %>
                 <% else %>
                     <div class="callout alert">
-                        <p>We couldn't accurately detect your location. If you're using a cellular connection, please try connecting the free IMU building Wi-Fi network "attwifi" and refresh this page.</p>
+                        <p>We couldn't accurately detect your location. If you're using a cellular connection, please try connecting the free University of Iowa Wi-Fi networks (either "attwifi" or "eduroam") and refresh this page.</p>
                     </div>
 
                 <% end_if %>
