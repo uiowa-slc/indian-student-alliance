@@ -7,41 +7,6 @@
     "content-hash": "ff6be07688fba67af019e35df345cf23",
     "packages": [
         {
-            "name": "asyncphp/doorman",
-            "version": "1.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/asyncphp/doorman.git",
-                "reference": "ada79add074d69fa70561c2ac0f7ded0c817e770"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/asyncphp/doorman/zipball/ada79add074d69fa70561c2ac0f7ded0c817e770",
-                "reference": "ada79add074d69fa70561c2ac0f7ded0c817e770",
-                "shasum": ""
-            },
-            "require": {
-                "jeremeamia/superclosure": "^1.0",
-                "php": ">=5.3.3",
-                "ramsey/array_column": "^1.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "AsyncPHP\\Doorman\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Child process management",
-            "time": "2015-09-04T02:46:41+00:00"
-        },
-        {
             "name": "colymba/gridfield-bulk-editing-tools",
             "version": "2.1.x-dev",
             "source": {
@@ -85,16 +50,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.7.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0"
+                "reference": "71a969fe8408f3db5c0c35d420df3e23b37971de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0",
+                "url": "https://api.github.com/repos/composer/installers/zipball/71a969fe8408f3db5c0c35d420df3e23b37971de",
+                "reference": "71a969fe8408f3db5c0c35d420df3e23b37971de",
                 "shasum": ""
             },
             "require": {
@@ -142,6 +107,7 @@
                 "Kanboard",
                 "Lan Management System",
                 "MODX Evo",
+                "MantisBT",
                 "Mautic",
                 "Maya",
                 "OXID",
@@ -203,7 +169,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2019-08-12T15:00:31+00:00"
+            "time": "2019-12-03T09:18:28+00:00"
         },
         {
             "name": "embed/embed",
@@ -524,54 +490,6 @@
             ],
             "description": "Provides Versioned DataObjects in SilverStripe",
             "time": "2017-11-28T22:17:47+00:00"
-        },
-        {
-            "name": "jeremeamia/superclosure",
-            "version": "1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jeremeamia/super_closure.git",
-                "reference": "4d89ca74994feab128ea46d5b3add92e6cb84554"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jeremeamia/super_closure/zipball/4d89ca74994feab128ea46d5b3add92e6cb84554",
-                "reference": "4d89ca74994feab128ea46d5b3add92e6cb84554",
-                "shasum": ""
-            },
-            "require": {
-                "nikic/php-parser": "~0.9",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Jeremeamia\\SuperClosure": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeremy Lindblom"
-                }
-            ],
-            "description": "Doing interesting things with closures like serialization.",
-            "homepage": "https://github.com/jeremeamia/super_closure",
-            "keywords": [
-                "closure",
-                "function",
-                "parser",
-                "serializable",
-                "serialize",
-                "tokenizer"
-            ],
-            "time": "2015-01-10T01:09:28+00:00"
         },
         {
             "name": "johngrogg/ics-parser",
@@ -906,23 +824,22 @@
         },
         {
             "name": "md/activedirectory",
-            "version": "3.1.0.1",
+            "version": "3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory.git",
-                "reference": "f167dc593b4c462f5e68f7b7ef828a69ea345dc5"
+                "reference": "6371ca38f0ead5d59359e244474d6db3a7a2db02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/f167dc593b4c462f5e68f7b7ef828a69ea345dc5",
-                "reference": "f167dc593b4c462f5e68f7b7ef828a69ea345dc5",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/6371ca38f0ead5d59359e244474d6db3a7a2db02",
+                "reference": "6371ca38f0ead5d59359e244474d6db3a7a2db02",
                 "shasum": ""
             },
             "require": {
-                "onelogin/php-saml": "^2.10.7",
+                "onelogin/php-saml": "3.*",
                 "php": ">=5.4",
                 "silverstripe/framework": "~3.1",
-                "symbiote/silverstripe-queuedjobs": "^3",
                 "zendframework/zend-authentication": "^2.5.1",
                 "zendframework/zend-ldap": "^2.5.1",
                 "zendframework/zend-session": "^2.5.1"
@@ -960,9 +877,9 @@
                 "sso"
             ],
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory/tree/3.1.0.1"
+                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory/tree/3.2.2"
             },
-            "time": "2017-11-10T15:11:36+00:00"
+            "time": "2019-12-18T21:05:46+00:00"
         },
         {
             "name": "md/blog",
@@ -1052,12 +969,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "ad7a9324109e622d5f1958549b72267e7f0a7c7e"
+                "reference": "0c4f0c4bae5d76836517c1fca59f185dc07ae94e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/ad7a9324109e622d5f1958549b72267e7f0a7c7e",
-                "reference": "ad7a9324109e622d5f1958549b72267e7f0a7c7e",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/0c4f0c4bae5d76836517c1fca59f185dc07ae94e",
+                "reference": "0c4f0c4bae5d76836517c1fca59f185dc07ae94e",
                 "shasum": ""
             },
             "require": {
@@ -1066,7 +983,7 @@
                 "jonom/focuspoint": "2.4.*",
                 "jonom/silverstripe-betternavigator": "3.*",
                 "md/ac-json-events": "dev-master",
-                "md/activedirectory": "3.*",
+                "md/activedirectory": "3.2.*",
                 "md/blog": "2.*",
                 "md/division-analytics": "1.*",
                 "md/rss-display": "*",
@@ -1112,7 +1029,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2019-12-18T20:45:23+00:00"
+            "time": "2019-12-18T21:02:04+00:00"
         },
         {
             "name": "md/rss-display",
@@ -1360,51 +1277,6 @@
             "time": "2016-11-24T01:20:31+00:00"
         },
         {
-            "name": "nikic/php-parser",
-            "version": "0.9.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ef70767475434bdb3615b43c327e2cae17ef12eb",
-                "reference": "ef70767475434bdb3615b43c327e2cae17ef12eb",
-                "shasum": ""
-            },
-            "require": {
-                "ext-tokenizer": "*",
-                "php": ">=5.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.9-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "PHPParser": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Popov"
-                }
-            ],
-            "description": "A PHP parser written in PHP",
-            "keywords": [
-                "parser",
-                "php"
-            ],
-            "time": "2014-07-23T18:24:17+00:00"
-        },
-        {
             "name": "normann/gridfieldpaginatorwithshowall",
             "version": "dev-master",
             "source": {
@@ -1468,43 +1340,40 @@
         },
         {
             "name": "onelogin/php-saml",
-            "version": "2.18.1",
+            "version": "3.4.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onelogin/php-saml.git",
-                "reference": "a4619e04e8e4b958a941a02125d1d9314ba5f0b3"
+                "reference": "5fbf3486704ac9835b68184023ab54862c95f213"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/a4619e04e8e4b958a941a02125d1d9314ba5f0b3",
-                "reference": "a4619e04e8e4b958a941a02125d1d9314ba5f0b3",
+                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/5fbf3486704ac9835b68184023ab54862c95f213",
+                "reference": "5fbf3486704ac9835b68184023ab54862c95f213",
                 "shasum": ""
             },
             "require": {
-                "ext-curl": "*",
-                "ext-dom": "*",
-                "ext-mcrypt": "*",
-                "ext-openssl": "*",
-                "php": ">=5.3.2"
+                "php": ">=5.4",
+                "robrichards/xmlseclibs": ">=3.0.4"
             },
             "require-dev": {
-                "pdepend/pdepend": "1.1.0",
-                "phploc/phploc": "*",
-                "phpunit/phpunit": "4.8",
-                "satooshi/php-coveralls": "1.0.1",
-                "sebastian/phpcpd": "*",
-                "squizlabs/php_codesniffer": "2.9.0"
+                "pdepend/pdepend": "^2.5.0",
+                "php-coveralls/php-coveralls": "^1.0.2 || ^2.0",
+                "phploc/phploc": "^2.1 || ^3.0 || ^4.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1",
+                "sebastian/phpcpd": "^2.0 || ^3.0 || ^4.0",
+                "squizlabs/php_codesniffer": "^3.1.1"
             },
             "suggest": {
-                "ext-gettext": "Install gettext and php5-gettext libs to handle translations"
+                "ext-curl": "Install curl lib to be able to use the IdPMetadataParser for parsing remote XMLs",
+                "ext-gettext": "Install gettext and php5-gettext libs to handle translations",
+                "ext-openssl": "Install openssl lib in order to handle with x509 certs (require to support sign and encryption)"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "extlib/xmlseclibs",
-                    "lib/Saml",
-                    "lib/Saml2"
-                ]
+                "psr-4": {
+                    "OneLogin\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1517,7 +1386,7 @@
                 "onelogin",
                 "saml"
             ],
-            "time": "2019-11-25T17:31:38+00:00"
+            "time": "2019-11-25T17:30:07+00:00"
         },
         {
             "name": "plato-creative/silverstripe-typekit",
@@ -1699,50 +1568,42 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
-            "name": "ramsey/array_column",
-            "version": "1.1.3",
+            "name": "robrichards/xmlseclibs",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ramsey/array_column.git",
-                "reference": "f8e52eb28e67eb50e613b451dd916abcf783c1db"
+                "url": "https://github.com/robrichards/xmlseclibs.git",
+                "reference": "bd47501f0d452816e7957d2e43d5c32c6001f50b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/array_column/zipball/f8e52eb28e67eb50e613b451dd916abcf783c1db",
-                "reference": "f8e52eb28e67eb50e613b451dd916abcf783c1db",
+                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/bd47501f0d452816e7957d2e43d5c32c6001f50b",
+                "reference": "bd47501f0d452816e7957d2e43d5c32c6001f50b",
                 "shasum": ""
             },
-            "require-dev": {
-                "jakub-onderka/php-parallel-lint": "0.8.*",
-                "phpunit/phpunit": "~4.5",
-                "satooshi/php-coveralls": "0.6.*",
-                "squizlabs/php_codesniffer": "~2.2"
+            "require": {
+                "ext-openssl": "*",
+                "php": ">= 5.4"
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "src/array_column.php"
-                ]
+                "psr-4": {
+                    "RobRichards\\XMLSecLibs\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "BSD-3-Clause"
             ],
-            "authors": [
-                {
-                    "name": "Ben Ramsey",
-                    "homepage": "http://benramsey.com"
-                }
-            ],
-            "description": "Provides functionality for array_column() to projects using PHP earlier than version 5.5.",
-            "homepage": "https://github.com/ramsey/array_column",
+            "description": "A PHP library for XML Security",
+            "homepage": "https://github.com/robrichards/xmlseclibs",
             "keywords": [
-                "array",
-                "array_column",
-                "column"
+                "security",
+                "signature",
+                "xml",
+                "xmldsig"
             ],
-            "abandoned": true,
-            "time": "2015-03-20T22:07:39+00:00"
+            "time": "2019-12-04T14:28:23+00:00"
         },
         {
             "name": "sabberworm/php-css-parser",
@@ -2976,56 +2837,6 @@
                 "silverstripe"
             ],
             "time": "2018-12-13T22:03:00+00:00"
-        },
-        {
-            "name": "symbiote/silverstripe-queuedjobs",
-            "version": "3.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symbiote/silverstripe-queuedjobs.git",
-                "reference": "4ab50eeef38987afaf838928332ea39e931f41a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-queuedjobs/zipball/4ab50eeef38987afaf838928332ea39e931f41a0",
-                "reference": "4ab50eeef38987afaf838928332ea39e931f41a0",
-                "shasum": ""
-            },
-            "require": {
-                "asyncphp/doorman": "^1.2",
-                "silverstripe/framework": "^3.1",
-                "symbiote/silverstripe-multivaluefield": "^3.0"
-            },
-            "replace": {
-                "silverstripe/queuedjobs": "self.version"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "queuedjobs",
-                "branch-alias": {
-                    "3.x-dev": "3.2.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Damian Mooyman",
-                    "email": "damian@silverstripe.com"
-                },
-                {
-                    "name": "Marcus Nyeholt",
-                    "email": "marcus@symbiote.com.au"
-                }
-            ],
-            "description": "A framework for defining and running background jobs in a queued manner",
-            "keywords": [
-                "jobs",
-                "silverstripe"
-            ],
-            "time": "2019-01-26T13:20:37+00:00"
         },
         {
             "name": "thisisbd/silverstripe-maintenance-mode",
