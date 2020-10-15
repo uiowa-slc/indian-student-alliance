@@ -1,1 +1,0 @@
-<p>Individuals with disabilities are encouraged to attend all University of Iowa-sponsored events. If you are a person with a disability who requires an accommodation in order to participate in this program, please contact ISA in advance.</p>
