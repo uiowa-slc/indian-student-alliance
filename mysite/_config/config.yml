@@ -1,0 +1,10 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: mysite
+Axllent\VersionTruncator\VersionTruncator:
+  keep_versions: 1           # how many (published) versions of each page to keep
+  keep_drafts: 1              # how many drafts of each page to keep
+  keep_redirects: false        # keep page versions that have a different URLSegment (for redirects)
+  keep_old_page_types: false  # keep page versions where page type (ClassName) has changed
